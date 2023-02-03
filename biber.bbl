@@ -1,0 +1,2965 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{zbMATH02010229}{article}{}
+      \name{author}{4}{}{%
+        {{hash=46dc1637295ead6a963c5e9ad8a685c7}{%
+           family={Ayala},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b44efcd3478e00f68e1e98659c4dc931}{%
+           family={Cárdenas},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b2ebbfec6fdc3102b51c246ab208d83e}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=bda26677de711787eb4ceccffb269637}{%
+           family={Quintero},
+           familyi={Q\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{0bb7b4c6c472b5782d819cb4b8b55d47}
+      \strng{fullhash}{b8ebda0a8e0c8952206b19349e10ba33}
+      \strng{bibnamehash}{0bb7b4c6c472b5782d819cb4b8b55d47}
+      \strng{authorbibnamehash}{0bb7b4c6c472b5782d819cb4b8b55d47}
+      \strng{authornamehash}{0bb7b4c6c472b5782d819cb4b8b55d47}
+      \strng{authorfullhash}{b8ebda0a8e0c8952206b19349e10ba33}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0092-7872}
+      \field{journaltitle}{Commun. Algebra}
+      \field{number}{12}
+      \field{title}{An elementary approach to the projective dimension in proper homotopy theory}
+      \field{volume}{31}
+      \field{year}{2003}
+      \true{nocite}
+      \field{pages}{5995\bibrangedash 6017}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1081/AGB-120024863
+      \endverb
+      \keyw{18G20,55P57,18G10,55P99}
+    \endentry
+    \entry{zbMATH05347000}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f289951e2d53067caeac08b09eeeec6e}{%
+           family={Baues},
+           familyi={B\bibinitperiod},
+           given={H.-J.},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=b2ebbfec6fdc3102b51c246ab208d83e}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{f8eb99e1d74086cd1f489e7fa21e24f9}
+      \strng{fullhash}{f8eb99e1d74086cd1f489e7fa21e24f9}
+      \strng{bibnamehash}{f8eb99e1d74086cd1f489e7fa21e24f9}
+      \strng{authorbibnamehash}{f8eb99e1d74086cd1f489e7fa21e24f9}
+      \strng{authornamehash}{f8eb99e1d74086cd1f489e7fa21e24f9}
+      \strng{authorfullhash}{f8eb99e1d74086cd1f489e7fa21e24f9}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1865-2433}
+      \field{journaltitle}{J. \(K\)-Theory}
+      \field{number}{1}
+      \field{title}{Cohomologically triangulated categories. {I}}
+      \field{volume}{1}
+      \field{year}{2008}
+      \true{nocite}
+      \field{pages}{3\bibrangedash 48}
+      \range{pages}{46}
+      \verb{doi}
+      \verb 10.1017/is007011018jkt019
+      \endverb
+      \keyw{18E30,18D05}
+    \endentry
+    \entry{zbMATH05528664}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f289951e2d53067caeac08b09eeeec6e}{%
+           family={Baues},
+           familyi={B\bibinitperiod},
+           given={H.-J.},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=b2ebbfec6fdc3102b51c246ab208d83e}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{f8eb99e1d74086cd1f489e7fa21e24f9}
+      \strng{fullhash}{f8eb99e1d74086cd1f489e7fa21e24f9}
+      \strng{bibnamehash}{f8eb99e1d74086cd1f489e7fa21e24f9}
+      \strng{authorbibnamehash}{f8eb99e1d74086cd1f489e7fa21e24f9}
+      \strng{authornamehash}{f8eb99e1d74086cd1f489e7fa21e24f9}
+      \strng{authorfullhash}{f8eb99e1d74086cd1f489e7fa21e24f9}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1865-2433}
+      \field{journaltitle}{J. \(K\)-Theory}
+      \field{number}{1}
+      \field{title}{Cohomologically triangulated categories. {II}}
+      \field{volume}{3}
+      \field{year}{2009}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 52}
+      \range{pages}{52}
+      \verb{doi}
+      \verb 10.1017/is008007021jkt061
+      \endverb
+      \keyw{18E30,18G60}
+    \endentry
+    \entry{zbMATH05351182}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e9dd2de6afa91eefc18e2d7e83101dd0}{%
+           family={Baues},
+           familyi={B\bibinitperiod},
+           given={Hans-Joachim},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{fullhash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{bibnamehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{authorbibnamehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{authornamehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{authorfullhash}{ea284cfe15e3d257bf017feaf3246060}
+      \field{extraname}{3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0933-7741}
+      \field{journaltitle}{Forum Math.}
+      \field{number}{4}
+      \field{title}{Secondary homotopy groups}
+      \field{volume}{20}
+      \field{year}{2008}
+      \true{nocite}
+      \field{pages}{631\bibrangedash 677}
+      \range{pages}{47}
+      \verb{doi}
+      \verb 10.1515/FORUM.2008.032
+      \endverb
+      \keyw{18D05,55Q25,55S45}
+    \endentry
+    \entry{zbMATH05367270}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e9dd2de6afa91eefc18e2d7e83101dd0}{%
+           family={Baues},
+           familyi={B\bibinitperiod},
+           given={Hans-Joachim},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{fullhash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{bibnamehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{authorbibnamehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{authornamehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{authorfullhash}{ea284cfe15e3d257bf017feaf3246060}
+      \field{extraname}{4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0927-2852}
+      \field{journaltitle}{Appl. Categ. Struct.}
+      \field{number}{5}
+      \field{title}{Smash products for secondary homotopy groups}
+      \field{volume}{16}
+      \field{year}{2008}
+      \true{nocite}
+      \field{pages}{551\bibrangedash 616}
+      \range{pages}{66}
+      \verb{doi}
+      \verb 10.1007/s10485-007-9071-x
+      \endverb
+      \keyw{55Q35,55Q15,55S45}
+    \endentry
+    \entry{zbMATH05882112}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e9dd2de6afa91eefc18e2d7e83101dd0}{%
+           family={Baues},
+           familyi={B\bibinitperiod},
+           given={Hans-Joachim},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{fullhash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{bibnamehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{authorbibnamehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{authornamehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{authorfullhash}{ea284cfe15e3d257bf017feaf3246060}
+      \field{extraname}{5}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0024-6115}
+      \field{journaltitle}{Proc. Lond. Math. Soc. (3)}
+      \field{number}{4}
+      \field{title}{The algebra of secondary homotopy operations in ring spectra}
+      \field{volume}{102}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{637\bibrangedash 696}
+      \range{pages}{60}
+      \verb{doi}
+      \verb 10.1112/plms/pdq034
+      \endverb
+      \verb{urlraw}
+      \verb idus.us.es/xmlui/handle/11441/41904
+      \endverb
+      \verb{url}
+      \verb idus.us.es/xmlui/handle/11441/41904
+      \endverb
+      \keyw{55P42,55P43,55Q35,55S20,55S30}
+    \endentry
+    \entry{zbMATH05186664}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e9dd2de6afa91eefc18e2d7e83101dd0}{%
+           family={Baues},
+           familyi={B\bibinitperiod},
+           given={Hans-Joachim},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{fullhash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{bibnamehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{authorbibnamehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{authornamehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{authorfullhash}{ea284cfe15e3d257bf017feaf3246060}
+      \field{extraname}{6}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-4049}
+      \field{journaltitle}{J. Pure Appl. Algebra}
+      \field{number}{3}
+      \field{title}{The homotopy category of pseudofunctors and translation cohomology}
+      \field{volume}{211}
+      \field{year}{2007}
+      \true{nocite}
+      \field{pages}{821\bibrangedash 850}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1016/j.jpaa.2007.04.008
+      \endverb
+      \keyw{18D05,18G60,55S35}
+    \endentry
+    \entry{zbMATH05496973}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e9dd2de6afa91eefc18e2d7e83101dd0}{%
+           family={Baues},
+           familyi={B\bibinitperiod},
+           given={Hans-Joachim},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{fullhash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{bibnamehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{authorbibnamehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{authornamehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{authorfullhash}{ea284cfe15e3d257bf017feaf3246060}
+      \field{extraname}{7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1370-1444}
+      \field{journaltitle}{Bull. Belg. Math. Soc. - Simon Stevin}
+      \field{number}{4}
+      \field{title}{The symmetric action on secondary homotopy groups}
+      \field{volume}{15}
+      \field{year}{2008}
+      \true{nocite}
+      \field{pages}{733\bibrangedash 768}
+      \range{pages}{36}
+      \keyw{55Q05,55Q25,55S45}
+    \endentry
+    \entry{zbMATH05538788}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e9dd2de6afa91eefc18e2d7e83101dd0}{%
+           family={Baues},
+           familyi={B\bibinitperiod},
+           given={Hans-Joachim},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{fullhash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{bibnamehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{authorbibnamehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{authornamehash}{ea284cfe15e3d257bf017feaf3246060}
+      \strng{authorfullhash}{ea284cfe15e3d257bf017feaf3246060}
+      \field{extraname}{8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0092-7872}
+      \field{journaltitle}{Commun. Algebra}
+      \field{number}{1}
+      \field{title}{Toda brackets and cup-one squares for ring spectra}
+      \field{volume}{37}
+      \field{year}{2009}
+      \true{nocite}
+      \field{pages}{56\bibrangedash 82}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1080/00927870802241188
+      \endverb
+      \verb{urlraw}
+      \verb idus.us.es/xmlui/handle/11441/41881
+      \endverb
+      \verb{url}
+      \verb idus.us.es/xmlui/handle/11441/41881
+      \endverb
+      \keyw{18G50,55P42,55Q35}
+    \endentry
+    \entry{zbMATH05252432}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2106506ca36ccd78368a360ca0fb052a}{%
+           family={Birman},
+           familyi={B\bibinitperiod},
+           given={Joan\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=4cdfac04036f5f035673ad0f33d3d4f1}{%
+           family={Gebhardt},
+           familyi={G\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+        {{hash=0679bca34a60769b00d067c1ef05753e}{%
+           family={Gonzáles-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{7f2a8426f11deece83aa63986c6739b8}
+      \strng{fullhash}{7f2a8426f11deece83aa63986c6739b8}
+      \strng{bibnamehash}{7f2a8426f11deece83aa63986c6739b8}
+      \strng{authorbibnamehash}{7f2a8426f11deece83aa63986c6739b8}
+      \strng{authornamehash}{7f2a8426f11deece83aa63986c6739b8}
+      \strng{authorfullhash}{7f2a8426f11deece83aa63986c6739b8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1661-7207}
+      \field{journaltitle}{Groups Geom. Dyn.}
+      \field{number}{1}
+      \field{title}{Conjugacy in {Garside} groups. {II}: {Structure} of the ultra summit set.}
+      \field{volume}{2}
+      \field{year}{2008}
+      \true{nocite}
+      \field{pages}{13\bibrangedash 61}
+      \range{pages}{49}
+      \verb{doi}
+      \verb 10.4171/GGD/30
+      \endverb
+      \keyw{20F36,20F10,20E45,20F05,68W30}
+    \endentry
+    \entry{zbMATH05238439}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2106506ca36ccd78368a360ca0fb052a}{%
+           family={Birman},
+           familyi={B\bibinitperiod},
+           given={Joan\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=4cdfac04036f5f035673ad0f33d3d4f1}{%
+           family={Gebhardt},
+           familyi={G\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{7deb4660c743df8b62a63fba712089e2}
+      \strng{fullhash}{7deb4660c743df8b62a63fba712089e2}
+      \strng{bibnamehash}{7deb4660c743df8b62a63fba712089e2}
+      \strng{authorbibnamehash}{7deb4660c743df8b62a63fba712089e2}
+      \strng{authornamehash}{7deb4660c743df8b62a63fba712089e2}
+      \strng{authorfullhash}{7deb4660c743df8b62a63fba712089e2}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1661-7207}
+      \field{journaltitle}{Groups Geom. Dyn.}
+      \field{number}{3}
+      \field{title}{Conjugacy in {Garside} groups. {I}: {Cyclings}, powers and rigidity.}
+      \field{volume}{1}
+      \field{year}{2007}
+      \true{nocite}
+      \field{pages}{221\bibrangedash 279}
+      \range{pages}{59}
+      \verb{doi}
+      \verb 10.4171/GGD/12
+      \endverb
+      \keyw{20F36,20F10,20E45,20F05}
+    \endentry
+    \entry{zbMATH05222091}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2106506ca36ccd78368a360ca0fb052a}{%
+           family={Birman},
+           familyi={B\bibinitperiod},
+           given={Joan\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=4cdfac04036f5f035673ad0f33d3d4f1}{%
+           family={Gebhardt},
+           familyi={G\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{7deb4660c743df8b62a63fba712089e2}
+      \strng{fullhash}{7deb4660c743df8b62a63fba712089e2}
+      \strng{bibnamehash}{7deb4660c743df8b62a63fba712089e2}
+      \strng{authorbibnamehash}{7deb4660c743df8b62a63fba712089e2}
+      \strng{authornamehash}{7deb4660c743df8b62a63fba712089e2}
+      \strng{authorfullhash}{7deb4660c743df8b62a63fba712089e2}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0021-8693}
+      \field{journaltitle}{J. Algebra}
+      \field{number}{2}
+      \field{title}{Conjugacy in {Garside} groups. {III}: {Periodic} braids.}
+      \field{volume}{316}
+      \field{year}{2007}
+      \true{nocite}
+      \field{pages}{746\bibrangedash 776}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1016/j.jalgebra.2007.02.002
+      \endverb
+      \verb{urlraw}
+      \verb idus.us.es/xmlui/handle/11441/42280
+      \endverb
+      \verb{url}
+      \verb idus.us.es/xmlui/handle/11441/42280
+      \endverb
+      \keyw{20F36,20F10,20E45,20F05,68W30}
+    \endentry
+    \entry{zbMATH07394050}{article}{}
+      \name{author}{4}{}{%
+        {{hash=aa7c9bb6c5ed5cd583898c07db40d3b7}{%
+           family={Bonnot},
+           familyi={B\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=49cc4d24bdcb55ac1dce8d5d10bd242f}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b6f03788f8d2a0fddf126c0b6e92c1fe}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Toby},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{849364e3d5a3010393c083504d7b18ac}
+      \strng{fullhash}{88d2085297e06b5f69c56e3d2f6401ba}
+      \strng{bibnamehash}{849364e3d5a3010393c083504d7b18ac}
+      \strng{authorbibnamehash}{849364e3d5a3010393c083504d7b18ac}
+      \strng{authornamehash}{849364e3d5a3010393c083504d7b18ac}
+      \strng{authorfullhash}{88d2085297e06b5f69c56e3d2f6401ba}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1472-2747}
+      \field{journaltitle}{Algebr. Geom. Topol.}
+      \field{number}{3}
+      \field{title}{Limits of sequences of pseudo-{Anosov} maps and of hyperbolic 3-manifolds}
+      \field{volume}{21}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{1351\bibrangedash 1370}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.2140/agt.2021.21.1351
+      \endverb
+      \keyw{57M50,20F36,37E30}
+    \endentry
+    \entry{zbMATH05262220}{article}{}
+      \name{author}{2}{}{%
+        {{hash=20140132735517549823151d8781bda3}{%
+           family={Burillo},
+           familyi={B\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod}}}%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{5807229ee559b66c61aa6a65a45b7871}
+      \strng{fullhash}{5807229ee559b66c61aa6a65a45b7871}
+      \strng{bibnamehash}{5807229ee559b66c61aa6a65a45b7871}
+      \strng{authorbibnamehash}{5807229ee559b66c61aa6a65a45b7871}
+      \strng{authornamehash}{5807229ee559b66c61aa6a65a45b7871}
+      \strng{authorfullhash}{5807229ee559b66c61aa6a65a45b7871}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0033-5606}
+      \field{journaltitle}{Q. J. Math.}
+      \field{number}{1}
+      \field{title}{Bi-orderings on pure braided {Thompson}'s groups.}
+      \field{volume}{59}
+      \field{year}{2008}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1093/qmath/ham029
+      \endverb
+      \verb{urlraw}
+      \verb idus.us.es/xmlui/handle/11441/42289
+      \endverb
+      \verb{url}
+      \verb idus.us.es/xmlui/handle/11441/42289
+      \endverb
+      \keyw{20F36,20F60,20F65,06F15}
+    \endentry
+    \entry{zbMATH05012977}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b44efcd3478e00f68e1e98659c4dc931}{%
+           family={Cárdenas},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b2ebbfec6fdc3102b51c246ab208d83e}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=bda26677de711787eb4ceccffb269637}{%
+           family={Quintero},
+           familyi={Q\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{ae72b1388df384eb32a046d6cc3a4b30}
+      \strng{fullhash}{ae72b1388df384eb32a046d6cc3a4b30}
+      \strng{bibnamehash}{ae72b1388df384eb32a046d6cc3a4b30}
+      \strng{authorbibnamehash}{ae72b1388df384eb32a046d6cc3a4b30}
+      \strng{authornamehash}{ae72b1388df384eb32a046d6cc3a4b30}
+      \strng{authorfullhash}{ae72b1388df384eb32a046d6cc3a4b30}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0166-8641}
+      \field{journaltitle}{Topology Appl.}
+      \field{number}{4}
+      \field{title}{The proper {L}-{S} category of {Whitehead} manifolds}
+      \field{volume}{153}
+      \field{year}{2005}
+      \true{nocite}
+      \field{pages}{557\bibrangedash 579}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1016/j.topol.2005.01.031
+      \endverb
+      \keyw{55M30,55P57,57N65}
+    \endentry
+    \entry{zbMATH05012978}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b44efcd3478e00f68e1e98659c4dc931}{%
+           family={Cárdenas},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=46ac7a2cd0461396d8946885d5a1dfae}{%
+           family={Lasheras},
+           familyi={L\bibinitperiod},
+           given={F.\bibnamedelimi F.},
+           giveni={F\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=b2ebbfec6fdc3102b51c246ab208d83e}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=bda26677de711787eb4ceccffb269637}{%
+           family={Quintero},
+           familyi={Q\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{cedf5c511df306e3aa7116af1e3a7ebb}
+      \strng{fullhash}{ee3b7873b5c3c8771f52ca43ae4fce9d}
+      \strng{bibnamehash}{cedf5c511df306e3aa7116af1e3a7ebb}
+      \strng{authorbibnamehash}{cedf5c511df306e3aa7116af1e3a7ebb}
+      \strng{authornamehash}{cedf5c511df306e3aa7116af1e3a7ebb}
+      \strng{authorfullhash}{ee3b7873b5c3c8771f52ca43ae4fce9d}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0166-8641}
+      \field{journaltitle}{Topology Appl.}
+      \field{number}{4}
+      \field{title}{Proper {L}--{S} category, fundamental pro-groups and 2-dimensional proper co-{H}-spaces}
+      \field{volume}{153}
+      \field{year}{2005}
+      \true{nocite}
+      \field{pages}{580\bibrangedash 604}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1016/j.topol.2005.01.032
+      \endverb
+      \keyw{55M30,55P57,55P45}
+    \endentry
+    \entry{zbMATH07082652}{article}{}
+      \name{author}{4}{}{%
+        {{hash=893a81d0ac545bdea90ddc7cefc400d5}{%
+           family={Cumplido},
+           familyi={C\bibinitperiod},
+           given={María},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4cdfac04036f5f035673ad0f33d3d4f1}{%
+           family={Gebhardt},
+           familyi={G\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=544790974da9ec98b26e18395a66097f}{%
+           family={Wiest},
+           familyi={W\bibinitperiod},
+           given={Bert},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{d1eaa16422061e109752338b782551e7}
+      \strng{fullhash}{3c98c1eef5a7ed6d5f62d20421d2df9c}
+      \strng{bibnamehash}{d1eaa16422061e109752338b782551e7}
+      \strng{authorbibnamehash}{d1eaa16422061e109752338b782551e7}
+      \strng{authornamehash}{d1eaa16422061e109752338b782551e7}
+      \strng{authorfullhash}{3c98c1eef5a7ed6d5f62d20421d2df9c}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-8708}
+      \field{journaltitle}{Adv. Math.}
+      \field{title}{On parabolic subgroups of {Artin}-{Tits} groups of spherical type}
+      \field{volume}{352}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{572\bibrangedash 610}
+      \range{pages}{39}
+      \verb{doi}
+      \verb 10.1016/j.aim.2019.06.010
+      \endverb
+      \keyw{20F36,20F10}
+    \endentry
+    \entry{zbMATH02091103}{article}{}
+      \name{author}{3}{}{%
+        {{hash=384545ae7fe8624b1b2149219cad8f9f}{%
+           family={Díaz-Cantos},
+           familyi={D\bibinithyphendelim C\bibinitperiod},
+           given={Jerónimo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c0d4e71a9d4d6dfccf30e99a302d2f70}{%
+           family={Tornero},
+           familyi={T\bibinitperiod},
+           given={José\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{d3cf6ce29cc2a321503dc8e2e85d2b66}
+      \strng{fullhash}{d3cf6ce29cc2a321503dc8e2e85d2b66}
+      \strng{bibnamehash}{d3cf6ce29cc2a321503dc8e2e85d2b66}
+      \strng{authorbibnamehash}{d3cf6ce29cc2a321503dc8e2e85d2b66}
+      \strng{authornamehash}{d3cf6ce29cc2a321503dc8e2e85d2b66}
+      \strng{authorfullhash}{d3cf6ce29cc2a321503dc8e2e85d2b66}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-9939}
+      \field{journaltitle}{Proc. Am. Math. Soc.}
+      \field{number}{10}
+      \field{title}{On the singular braid monoid of an orientable surface.}
+      \field{volume}{132}
+      \field{year}{2004}
+      \true{nocite}
+      \field{pages}{2867\bibrangedash 2873}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1090/S0002-9939-04-07307-1
+      \endverb
+      \keyw{20F36,20F38,20M05}
+    \endentry
+    \entry{zbMATH07188618}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3afc78104de42e695242341a5448e966}{%
+           family={Flores},
+           familyi={F\bibinitperiod},
+           given={Ramón},
+           giveni={R\bibinitperiod}}}%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{bbe3e6f0d2ce192287bbb9306d5311c5}
+      \strng{fullhash}{bbe3e6f0d2ce192287bbb9306d5311c5}
+      \strng{bibnamehash}{bbe3e6f0d2ce192287bbb9306d5311c5}
+      \strng{authorbibnamehash}{bbe3e6f0d2ce192287bbb9306d5311c5}
+      \strng{authornamehash}{bbe3e6f0d2ce192287bbb9306d5311c5}
+      \strng{authorfullhash}{bbe3e6f0d2ce192287bbb9306d5311c5}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1073-7928}
+      \field{journaltitle}{Int. Math. Res. Not.}
+      \field{number}{5}
+      \field{title}{Classifying spaces for the family of virtually cyclic subgroups of braid groups}
+      \field{volume}{2020}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{1575\bibrangedash 1600}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1093/imrn/rny067
+      \endverb
+      \keyw{20F36,57K10,55R35,20J05}
+    \endentry
+    \entry{zbMATH07339571}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3afc78104de42e695242341a5448e966}{%
+           family={Flores},
+           familyi={F\bibinitperiod},
+           given={Ramón},
+           giveni={R\bibinitperiod}}}%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{bbe3e6f0d2ce192287bbb9306d5311c5}
+      \strng{fullhash}{bbe3e6f0d2ce192287bbb9306d5311c5}
+      \strng{bibnamehash}{bbe3e6f0d2ce192287bbb9306d5311c5}
+      \strng{authorbibnamehash}{bbe3e6f0d2ce192287bbb9306d5311c5}
+      \strng{authornamehash}{bbe3e6f0d2ce192287bbb9306d5311c5}
+      \strng{authorfullhash}{bbe3e6f0d2ce192287bbb9306d5311c5}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0925-9899}
+      \field{journaltitle}{J. Algebr. Comb.}
+      \field{number}{4}
+      \field{title}{On lexicographic representatives in braid monoids}
+      \field{volume}{52}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{561\bibrangedash 597}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1007/s10801-019-00913-7
+      \endverb
+      \keyw{20Fxx,57Mxx,20-XX}
+    \endentry
+    \entry{zbMATH07540605}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3afc78104de42e695242341a5448e966}{%
+           family={Flores},
+           familyi={F\bibinitperiod},
+           given={Ramón},
+           giveni={R\bibinitperiod}}}%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{bbe3e6f0d2ce192287bbb9306d5311c5}
+      \strng{fullhash}{bbe3e6f0d2ce192287bbb9306d5311c5}
+      \strng{bibnamehash}{bbe3e6f0d2ce192287bbb9306d5311c5}
+      \strng{authorbibnamehash}{bbe3e6f0d2ce192287bbb9306d5311c5}
+      \strng{authornamehash}{bbe3e6f0d2ce192287bbb9306d5311c5}
+      \strng{authorfullhash}{bbe3e6f0d2ce192287bbb9306d5311c5}
+      \field{extraname}{3}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0097-3165}
+      \field{journaltitle}{J. Comb. Theory, Ser. A}
+      \field{note}{Id/No 105623}
+      \field{title}{On the growth of {Artin}-{Tits} monoids and the partial theta function}
+      \field{volume}{190}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{39}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jcta.2022.105623
+      \endverb
+      \keyw{20M32,20F36,11F27}
+    \endentry
+    \entry{zbMATH07053579}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3afc78104de42e695242341a5448e966}{%
+           family={Flores},
+           familyi={F\bibinitperiod},
+           given={Ramón},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{55b9da60e309939166103fef6d37bdff}
+      \strng{fullhash}{55b9da60e309939166103fef6d37bdff}
+      \strng{bibnamehash}{55b9da60e309939166103fef6d37bdff}
+      \strng{authorbibnamehash}{55b9da60e309939166103fef6d37bdff}
+      \strng{authornamehash}{55b9da60e309939166103fef6d37bdff}
+      \strng{authorfullhash}{55b9da60e309939166103fef6d37bdff}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1472-2747}
+      \field{journaltitle}{Algebr. Geom. Topol.}
+      \field{number}{1}
+      \field{title}{Torsion homology and cellular approximation}
+      \field{volume}{19}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{457\bibrangedash 476}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.2140/agt.2019.19.457
+      \endverb
+      \keyw{20F99,55P60}
+    \endentry
+    \entry{zbMATH02109600}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e02cee7a1b0da560b43496850e060887}{%
+           family={Franco},
+           familyi={F\bibinitperiod},
+           given={Nuno},
+           giveni={N\bibinitperiod}}}%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{c367102ef751015de21fc16da19d2204}
+      \strng{fullhash}{c367102ef751015de21fc16da19d2204}
+      \strng{bibnamehash}{c367102ef751015de21fc16da19d2204}
+      \strng{authorbibnamehash}{c367102ef751015de21fc16da19d2204}
+      \strng{authornamehash}{c367102ef751015de21fc16da19d2204}
+      \strng{authorfullhash}{c367102ef751015de21fc16da19d2204}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0213-2230}
+      \field{journaltitle}{Rev. Mat. Iberoam.}
+      \field{number}{2}
+      \field{title}{Computation of centralizers in braid groups and {Garside} groups.}
+      \field{volume}{19}
+      \field{year}{2003}
+      \true{nocite}
+      \field{pages}{367\bibrangedash 384}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.4171/RMI/352
+      \endverb
+      \keyw{20F36,20F10,94A60,20F05,68W30}
+    \endentry
+    \entry{zbMATH01967902}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e02cee7a1b0da560b43496850e060887}{%
+           family={Franco},
+           familyi={F\bibinitperiod},
+           given={Nuno},
+           giveni={N\bibinitperiod}}}%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{c367102ef751015de21fc16da19d2204}
+      \strng{fullhash}{c367102ef751015de21fc16da19d2204}
+      \strng{bibnamehash}{c367102ef751015de21fc16da19d2204}
+      \strng{authorbibnamehash}{c367102ef751015de21fc16da19d2204}
+      \strng{authornamehash}{c367102ef751015de21fc16da19d2204}
+      \strng{authorfullhash}{c367102ef751015de21fc16da19d2204}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0021-8693}
+      \field{journaltitle}{J. Algebra}
+      \field{number}{1}
+      \field{title}{Conjugacy problem for braid groups and {Garside} groups.}
+      \field{volume}{266}
+      \field{year}{2003}
+      \true{nocite}
+      \field{pages}{112\bibrangedash 132}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1016/S0021-8693(03)00292-8
+      \endverb
+      \keyw{20F36,20F10,20E45,57M25,57M07}
+    \endentry
+    \entry{zbMATH06104594}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4cdfac04036f5f035673ad0f33d3d4f1}{%
+           family={Gebhardt},
+           familyi={G\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{224aa98c2be2da5964d0aa49e7915f62}
+      \strng{fullhash}{224aa98c2be2da5964d0aa49e7915f62}
+      \strng{bibnamehash}{224aa98c2be2da5964d0aa49e7915f62}
+      \strng{authorbibnamehash}{224aa98c2be2da5964d0aa49e7915f62}
+      \strng{authornamehash}{224aa98c2be2da5964d0aa49e7915f62}
+      \strng{authorfullhash}{224aa98c2be2da5964d0aa49e7915f62}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0097-3165}
+      \field{journaltitle}{J. Comb. Theory, Ser. A}
+      \field{number}{1}
+      \field{title}{Generating random braids}
+      \field{volume}{120}
+      \field{year}{2013}
+      \true{nocite}
+      \field{pages}{111\bibrangedash 128}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.jcta.2012.07.003
+      \endverb
+      \keyw{68R05,68R10,68Q45,68W05,05A15}
+    \endentry
+    \entry{zbMATH05710825}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4cdfac04036f5f035673ad0f33d3d4f1}{%
+           family={Gebhardt},
+           familyi={G\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{224aa98c2be2da5964d0aa49e7915f62}
+      \strng{fullhash}{224aa98c2be2da5964d0aa49e7915f62}
+      \strng{bibnamehash}{224aa98c2be2da5964d0aa49e7915f62}
+      \strng{authorbibnamehash}{224aa98c2be2da5964d0aa49e7915f62}
+      \strng{authornamehash}{224aa98c2be2da5964d0aa49e7915f62}
+      \strng{authorfullhash}{224aa98c2be2da5964d0aa49e7915f62}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0747-7171}
+      \field{journaltitle}{J. Symb. Comput.}
+      \field{number}{6}
+      \field{title}{Solving the conjugacy problem in {Garside} groups by cyclic sliding.}
+      \field{volume}{45}
+      \field{year}{2010}
+      \true{nocite}
+      \field{pages}{629\bibrangedash 656}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1016/j.jsc.2010.01.013
+      \endverb
+      \verb{urlraw}
+      \verb idus.us.es/xmlui/handle/11441/42311
+      \endverb
+      \verb{url}
+      \verb idus.us.es/xmlui/handle/11441/42311
+      \endverb
+      \keyw{20F10,20F36,68W30,68Q25}
+    \endentry
+    \entry{zbMATH05700566}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4cdfac04036f5f035673ad0f33d3d4f1}{%
+           family={Gebhardt},
+           familyi={G\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{224aa98c2be2da5964d0aa49e7915f62}
+      \strng{fullhash}{224aa98c2be2da5964d0aa49e7915f62}
+      \strng{bibnamehash}{224aa98c2be2da5964d0aa49e7915f62}
+      \strng{authorbibnamehash}{224aa98c2be2da5964d0aa49e7915f62}
+      \strng{authornamehash}{224aa98c2be2da5964d0aa49e7915f62}
+      \strng{authorfullhash}{224aa98c2be2da5964d0aa49e7915f62}
+      \field{extraname}{3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0025-5874}
+      \field{journaltitle}{Math. Z.}
+      \field{number}{1}
+      \field{title}{The cyclic sliding operation in {Garside} groups.}
+      \field{volume}{265}
+      \field{year}{2010}
+      \true{nocite}
+      \field{pages}{85\bibrangedash 114}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1007/s00209-009-0502-2
+      \endverb
+      \verb{urlraw}
+      \verb idus.us.es/handle/11441/42284
+      \endverb
+      \verb{url}
+      \verb idus.us.es/handle/11441/42284
+      \endverb
+      \keyw{20F36,20F10,20E45,20F05,68W30}
+    \endentry
+    \entry{zbMATH02209669}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=0679bca34a60769b00d067c1ef05753e}{%
+           family={Gonzáles-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Providence, RI: American Mathematical Society (AMS)}%
+      }
+      \strng{namehash}{0679bca34a60769b00d067c1ef05753e}
+      \strng{fullhash}{0679bca34a60769b00d067c1ef05753e}
+      \strng{bibnamehash}{0679bca34a60769b00d067c1ef05753e}
+      \strng{authorbibnamehash}{0679bca34a60769b00d067c1ef05753e}
+      \strng{authornamehash}{0679bca34a60769b00d067c1ef05753e}
+      \strng{authorfullhash}{0679bca34a60769b00d067c1ef05753e}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Geometric methods in group theory. Papers of the AMS special session on geometric group theory, Boston, MA, USA, October 5--6, 2002 and of the special session at the 1st joint meeting of the AMS and the RSMA, Seville, Spain, June 18--21, 2003}
+      \field{isbn}{0-8218-3362-6}
+      \field{title}{Improving an algorithm to solve multiple simultaneous conjugacy problems in braid groups.}
+      \field{year}{2005}
+      \true{nocite}
+      \field{pages}{35\bibrangedash 42}
+      \range{pages}{8}
+      \keyw{20F36,20F10,94A60,20E45}
+    \endentry
+    \entry{zbMATH02104365}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3dd5f166cf915f7198654a1c6d63532b}{%
+           family={Gonzalez-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{3dd5f166cf915f7198654a1c6d63532b}
+      \strng{fullhash}{3dd5f166cf915f7198654a1c6d63532b}
+      \strng{bibnamehash}{3dd5f166cf915f7198654a1c6d63532b}
+      \strng{authorbibnamehash}{3dd5f166cf915f7198654a1c6d63532b}
+      \strng{authornamehash}{3dd5f166cf915f7198654a1c6d63532b}
+      \strng{authorfullhash}{3dd5f166cf915f7198654a1c6d63532b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1472-2747}
+      \field{journaltitle}{Algebr. Geom. Topol.}
+      \field{title}{The {{\(n\)}}th root of a braid is unique up to conjugacy.}
+      \field{volume}{3}
+      \field{year}{2003}
+      \true{nocite}
+      \field{pages}{1103\bibrangedash 1118}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.2140/agt.2003.3.1103
+      \endverb
+      \keyw{20F36,20F65}
+    \endentry
+    \entry{zbMATH06318285}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f66c8ac5eacd857aab706af8c890edeb}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=65990c1b3335444e746c756fd52b5ac6}{%
+           family={Manchón},
+           familyi={M\bibinitperiod},
+           given={P.\bibnamedelimi M.\bibnamedelimi G.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{dd9935159d191610165c25fe252bb772}
+      \strng{fullhash}{dd9935159d191610165c25fe252bb772}
+      \strng{bibnamehash}{dd9935159d191610165c25fe252bb772}
+      \strng{authorbibnamehash}{dd9935159d191610165c25fe252bb772}
+      \strng{authornamehash}{dd9935159d191610165c25fe252bb772}
+      \strng{authorfullhash}{dd9935159d191610165c25fe252bb772}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0166-8641}
+      \field{journaltitle}{Topology Appl.}
+      \field{title}{Closures of positive braids and the {Morton}-{Franks}-{Williams} inequality}
+      \field{volume}{174}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{14\bibrangedash 24}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.topol.2014.06.008
+      \endverb
+      \keyw{57M27,20F36}
+    \endentry
+    \entry{zbMATH07000763}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f66c8ac5eacd857aab706af8c890edeb}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=65990c1b3335444e746c756fd52b5ac6}{%
+           family={Manchón},
+           familyi={M\bibinitperiod},
+           given={P.\bibnamedelimi M.\bibnamedelimi G.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=edeaac2f7c34ba06c617d26deaacd27e}{%
+           family={Silvero},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{0e01cf482bf8e99887d734eead21a760}
+      \strng{fullhash}{0e01cf482bf8e99887d734eead21a760}
+      \strng{bibnamehash}{0e01cf482bf8e99887d734eead21a760}
+      \strng{authorbibnamehash}{0e01cf482bf8e99887d734eead21a760}
+      \strng{authornamehash}{0e01cf482bf8e99887d734eead21a760}
+      \strng{authorfullhash}{0e01cf482bf8e99887d734eead21a760}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0308-2105}
+      \field{journaltitle}{Proc. R. Soc. Edinb., Sect. A, Math.}
+      \field{number}{3}
+      \field{title}{A geometric description of the extreme {Khovanov} cohomology}
+      \field{volume}{148}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{541\bibrangedash 557}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1017/S0308210517000300
+      \endverb
+      \keyw{57K18,57M15}
+    \endentry
+    \entry{zbMATH05903953}{article}{}
+      \name{author}{1}{}{%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{fullhash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{bibnamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authorbibnamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authornamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authorfullhash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1259-1734}
+      \field{journaltitle}{Ann. Math. Blaise Pascal}
+      \field{number}{1}
+      \field{title}{Basic results on braid groups.}
+      \field{volume}{18}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{15\bibrangedash 59}
+      \range{pages}{45}
+      \verb{doi}
+      \verb 10.5802/ambp.293
+      \endverb
+      \keyw{20F36,20F05,20F10}
+    \endentry
+    \entry{zbMATH07113751}{article}{}
+      \name{author}{1}{}{%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{fullhash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{bibnamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authorbibnamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authornamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authorfullhash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2426-0312}
+      \field{journaltitle}{Winter Braids Lect. Notes}
+      \field{title}{Geometric approaches to braid groups and mapping class groups}
+      \field{volume}{2}
+      \field{year}{2015}
+      \true{nocite}
+      \field{pages}{ex}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.5802/wbln.9
+      \endverb
+      \keyw{57M50,20F67,57M07}
+    \endentry
+    \entry{zbMATH06384865}{article}{}
+      \name{author}{1}{}{%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{fullhash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{bibnamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authorbibnamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authornamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authorfullhash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \field{extraname}{3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1405-213X}
+      \field{journaltitle}{Bol. Soc. Mat. Mex., III. Ser.}
+      \field{number}{2}
+      \field{title}{Geometric embeddings of braid groups do not merge conjugacy classes.}
+      \field{volume}{20}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{297\bibrangedash 305}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/s40590-014-0018-6
+      \endverb
+      \verb{urlraw}
+      \verb idus.us.es/handle/11441/42255
+      \endverb
+      \verb{url}
+      \verb idus.us.es/handle/11441/42255
+      \endverb
+      \keyw{20F36,20E45,57M60,20E07}
+    \endentry
+    \entry{zbMATH01773568}{article}{}
+      \name{author}{1}{}{%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{fullhash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{bibnamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authorbibnamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authornamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authorfullhash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \field{extraname}{4}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0218-2165}
+      \field{journaltitle}{J. Knot Theory Ramifications}
+      \field{number}{3}
+      \field{title}{New presentations of surface braid groups}
+      \field{volume}{10}
+      \field{year}{2001}
+      \true{nocite}
+      \field{pages}{431\bibrangedash 451}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1142/S0218216501000949
+      \endverb
+      \keyw{20F36,57N05,20F05,57M07,20F10}
+    \endentry
+    \entry{zbMATH05896158}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Providence, RI: American Mathematical Society (AMS); Madrid: Real Sociedad Matemática Española}%
+      }
+      \strng{namehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{fullhash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{bibnamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authorbibnamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authornamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authorfullhash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \field{extraname}{5}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Topology of algebraic varieties and singularities. Invited papers of the conference in honor of Anatoly Libgober's 60th birthday, Jaca, Spain, June 22--26, 2009}
+      \field{isbn}{978-0-8218-4890-6}
+      \field{title}{On reduction curves and {Garside} properties of braids.}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{227\bibrangedash 244}
+      \range{pages}{18}
+      \keyw{20F36,20F10,57M25}
+    \endentry
+    \entry{zbMATH01818971}{article}{}
+      \name{author}{1}{}{%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{fullhash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{bibnamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authorbibnamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authornamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authorfullhash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \field{extraname}{6}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1945-5844}
+      \field{journaltitle}{Pac. J. Math.}
+      \field{number}{2}
+      \field{title}{Ordering pure braid groups on compact, connected surfaces.}
+      \field{volume}{203}
+      \field{year}{2002}
+      \true{nocite}
+      \field{pages}{369\bibrangedash 378}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.2140/pjm.2002.203.369
+      \endverb
+      \keyw{20F36,06F15,20F60,57Q45}
+    \endentry
+    \entry{zbMATH01794334}{article}{}
+      \name{author}{1}{}{%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{fullhash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{bibnamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authorbibnamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authornamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authorfullhash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \field{extraname}{7}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0092-7872}
+      \field{journaltitle}{Commun. Algebra}
+      \field{number}{6}
+      \field{title}{Presentations for the monoids of singular braids on closed surfaces}
+      \field{volume}{30}
+      \field{year}{2002}
+      \true{nocite}
+      \field{pages}{2829\bibrangedash 2836}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1081/AGB-120003991
+      \endverb
+      \keyw{20F36,20M05,57M27,57N05}
+    \endentry
+    \entry{zbMATH07578872}{article}{}
+      \name{author}{1}{}{%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{fullhash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{bibnamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authorbibnamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authornamehash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \strng{authorfullhash}{75c7842ebc8bf55f9d4920330053f5dc}
+      \field{extraname}{8}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0218-2165}
+      \field{journaltitle}{J. Knot Theory Ramifications}
+      \field{note}{Id/No 2240005}
+      \field{number}{8}
+      \field{title}{Some computational aspects in the work of {Patrick} {Dehornoy}}
+      \field{volume}{31}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{9}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1142/S0218216522400053
+      \endverb
+      \keyw{20F36,20F10,20F05,20F60}
+    \endentry
+    \entry{zbMATH05523173}{article}{}
+      \name{author}{2}{}{%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4cdfac04036f5f035673ad0f33d3d4f1}{%
+           family={Gebhardt},
+           familyi={G\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{ec5f1b380a22bc241eab08eef9e23843}
+      \strng{fullhash}{ec5f1b380a22bc241eab08eef9e23843}
+      \strng{bibnamehash}{ec5f1b380a22bc241eab08eef9e23843}
+      \strng{authorbibnamehash}{ec5f1b380a22bc241eab08eef9e23843}
+      \strng{authornamehash}{ec5f1b380a22bc241eab08eef9e23843}
+      \strng{authorfullhash}{ec5f1b380a22bc241eab08eef9e23843}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0166-218X}
+      \field{journaltitle}{Discrete Appl. Math.}
+      \field{number}{16}
+      \field{title}{On the cycling operation in braid groups.}
+      \field{volume}{156}
+      \field{year}{2008}
+      \true{nocite}
+      \field{pages}{3072\bibrangedash 3090}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1016/j.dam.2008.01.023
+      \endverb
+      \verb{urlraw}
+      \verb idus.us.es/xmlui/handle/11441/42260
+      \endverb
+      \verb{url}
+      \verb idus.us.es/xmlui/handle/11441/42260
+      \endverb
+      \keyw{20F36,20F10,94A60,20F05}
+    \endentry
+    \entry{zbMATH05936727}{article}{}
+      \name{author}{2}{}{%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d94f9eeb5597f2d2dd7513666c346f33}{%
+           family={Manchón},
+           familyi={M\bibinitperiod},
+           given={Pedro\bibnamedelimb M.\bibnamedelimi G.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{21537e76ab3c26815a677919ebdda490}
+      \strng{fullhash}{21537e76ab3c26815a677919ebdda490}
+      \strng{bibnamehash}{21537e76ab3c26815a677919ebdda490}
+      \strng{authorbibnamehash}{21537e76ab3c26815a677919ebdda490}
+      \strng{authornamehash}{21537e76ab3c26815a677919ebdda490}
+      \strng{authorfullhash}{21537e76ab3c26815a677919ebdda490}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0218-2165}
+      \field{journaltitle}{J. Knot Theory Ramifications}
+      \field{number}{7}
+      \field{title}{A geometric characterization of the upper bound for the span of the {Jones} polynomial}
+      \field{volume}{20}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{1059\bibrangedash 1071}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1142/S0218216511009005
+      \endverb
+      \keyw{57M27,57M25}
+    \endentry
+    \entry{zbMATH01986411}{article}{}
+      \name{author}{2}{}{%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=aa8f80ba7c11a25e46f23bcf807ace8b}{%
+           family={Paris},
+           familyi={P\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{da9b208ca2dbf5d0eefcac47cc6bd026}
+      \strng{fullhash}{da9b208ca2dbf5d0eefcac47cc6bd026}
+      \strng{bibnamehash}{da9b208ca2dbf5d0eefcac47cc6bd026}
+      \strng{authorbibnamehash}{da9b208ca2dbf5d0eefcac47cc6bd026}
+      \strng{authornamehash}{da9b208ca2dbf5d0eefcac47cc6bd026}
+      \strng{authorfullhash}{da9b208ca2dbf5d0eefcac47cc6bd026}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-9947}
+      \field{journaltitle}{Trans. Am. Math. Soc.}
+      \field{number}{1}
+      \field{title}{Vassiliev invariants for braids on surfaces}
+      \field{volume}{356}
+      \field{year}{2004}
+      \true{nocite}
+      \field{pages}{219\bibrangedash 243}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1090/S0002-9947-03-03116-7
+      \endverb
+      \keyw{57M27,20F36}
+    \endentry
+    \entry{zbMATH07040640}{article}{}
+      \name{author}{2}{}{%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=058ae42e7358aa1bac197bd9b2c651fa}{%
+           family={Silvero},
+           familyi={S\bibinitperiod},
+           given={Marithania},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{c7b57e52c716241185dac3f660989e05}
+      \strng{fullhash}{c7b57e52c716241185dac3f660989e05}
+      \strng{bibnamehash}{c7b57e52c716241185dac3f660989e05}
+      \strng{authorbibnamehash}{c7b57e52c716241185dac3f660989e05}
+      \strng{authornamehash}{c7b57e52c716241185dac3f660989e05}
+      \strng{authorfullhash}{c7b57e52c716241185dac3f660989e05}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0025-5718}
+      \field{journaltitle}{Math. Comput.}
+      \field{number}{318}
+      \field{title}{Polynomial braid combing}
+      \field{volume}{88}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{2027\bibrangedash 2045}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1090/mcom/3392
+      \endverb
+      \keyw{20F36,20F10,68Q25}
+    \endentry
+    \entry{zbMATH06974581}{article}{}
+      \name{author}{2}{}{%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ab07cefb3ed44d86ca9aeea0f518d759}{%
+           family={Valladares},
+           familyi={V\bibinitperiod},
+           given={Dolores},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{9ca80e3dd69a772b9fd19dac22100b8d}
+      \strng{fullhash}{9ca80e3dd69a772b9fd19dac22100b8d}
+      \strng{bibnamehash}{9ca80e3dd69a772b9fd19dac22100b8d}
+      \strng{authorbibnamehash}{9ca80e3dd69a772b9fd19dac22100b8d}
+      \strng{authornamehash}{9ca80e3dd69a772b9fd19dac22100b8d}
+      \strng{authorfullhash}{9ca80e3dd69a772b9fd19dac22100b8d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1433-5883}
+      \field{journaltitle}{J. Group Theory}
+      \field{number}{6}
+      \field{title}{On the centralizer of generic braids}
+      \field{volume}{21}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{973\bibrangedash 1000}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1515/jgth-2018-0027
+      \endverb
+      \verb{urlraw}
+      \verb idus.us.es/handle//11441/84183
+      \endverb
+      \verb{url}
+      \verb idus.us.es/handle//11441/84183
+      \endverb
+      \keyw{20F36,20F10,20F05}
+    \endentry
+    \entry{zbMATH06361305}{article}{}
+      \name{author}{2}{}{%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=39ec499ea8c6bd5c289146cdc001da89}{%
+           family={Ventura},
+           familyi={V\bibinitperiod},
+           given={Enric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{81954cd067764bbb124d42677c97c716}
+      \strng{fullhash}{81954cd067764bbb124d42677c97c716}
+      \strng{bibnamehash}{81954cd067764bbb124d42677c97c716}
+      \strng{authorbibnamehash}{81954cd067764bbb124d42677c97c716}
+      \strng{authornamehash}{81954cd067764bbb124d42677c97c716}
+      \strng{authorfullhash}{81954cd067764bbb124d42677c97c716}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0021-2172}
+      \field{journaltitle}{Isr. J. Math.}
+      \field{title}{Twisted conjugacy in braid groups.}
+      \field{volume}{201}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{455\bibrangedash 476}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1007/s11856-014-0032-4
+      \endverb
+      \verb{urlraw}
+      \verb idus.us.es/xmlui/handle/11441/41164
+      \endverb
+      \verb{url}
+      \verb idus.us.es/xmlui/handle/11441/41164
+      \endverb
+      \keyw{20F10,20F36,20E45}
+    \endentry
+    \entry{zbMATH02136288}{article}{}
+      \name{author}{2}{}{%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=544790974da9ec98b26e18395a66097f}{%
+           family={Wiest},
+           familyi={W\bibinitperiod},
+           given={Bert},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{87c39ceecb7d76b5b9a56c2e18273752}
+      \strng{fullhash}{87c39ceecb7d76b5b9a56c2e18273752}
+      \strng{bibnamehash}{87c39ceecb7d76b5b9a56c2e18273752}
+      \strng{authorbibnamehash}{87c39ceecb7d76b5b9a56c2e18273752}
+      \strng{authornamehash}{87c39ceecb7d76b5b9a56c2e18273752}
+      \strng{authorfullhash}{87c39ceecb7d76b5b9a56c2e18273752}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0012-9593}
+      \field{journaltitle}{Ann. Sci. Éc. Norm. Supér. (4)}
+      \field{number}{5}
+      \field{title}{On the structure of the centralizer of a braid.}
+      \field{volume}{37}
+      \field{year}{2004}
+      \true{nocite}
+      \field{pages}{729\bibrangedash 757}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1016/j.ansens.2004.04.002
+      \endverb
+      \verb{urlraw}
+      \verb idus.us.es/handle/11441/43116
+      \endverb
+      \verb{url}
+      \verb idus.us.es/handle/11441/43116
+      \endverb
+      \keyw{20F36,20F05,20E07,57M25}
+    \endentry
+    \entry{zbMATH05996752}{article}{}
+      \name{author}{2}{}{%
+        {{hash=75c7842ebc8bf55f9d4920330053f5dc}{%
+           family={González-Meneses},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=544790974da9ec98b26e18395a66097f}{%
+           family={Wiest},
+           familyi={W\bibinitperiod},
+           given={Bert},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{87c39ceecb7d76b5b9a56c2e18273752}
+      \strng{fullhash}{87c39ceecb7d76b5b9a56c2e18273752}
+      \strng{bibnamehash}{87c39ceecb7d76b5b9a56c2e18273752}
+      \strng{authorbibnamehash}{87c39ceecb7d76b5b9a56c2e18273752}
+      \strng{authornamehash}{87c39ceecb7d76b5b9a56c2e18273752}
+      \strng{authorfullhash}{87c39ceecb7d76b5b9a56c2e18273752}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1472-2747}
+      \field{journaltitle}{Algebr. Geom. Topol.}
+      \field{number}{5}
+      \field{title}{Reducible braids and {Garside} theory.}
+      \field{volume}{11}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{2971\bibrangedash 3010}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.2140/agt.2011.11.2971
+      \endverb
+      \keyw{20F36,20F10,68W30,68Q25}
+    \endentry
+    \entry{zbMATH06791664}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{fullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{bibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorbibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authornamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorfullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1472-2747}
+      \field{journaltitle}{Algebr. Geom. Topol.}
+      \field{number}{6}
+      \field{title}{Correction to: ``{Homotopy} theory of nonsymmetric operads. {I}--{II}''}
+      \field{volume}{17}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{3837\bibrangedash 3852}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.2140/agt.2017.17.3837
+      \endverb
+      \keyw{18M60,55U35,18M05,18C40,18D20}
+    \endentry
+    \entry{zbMATH06571599}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{fullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{bibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorbibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authornamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorfullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-4049}
+      \field{journaltitle}{J. Pure Appl. Algebra}
+      \field{number}{9}
+      \field{title}{Cylinders for non-symmetric {DG}-operads via homological perturbation theory}
+      \field{volume}{220}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{3248\bibrangedash 3281}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1016/j.jpaa.2016.02.013
+      \endverb
+      \verb{urlraw}
+      \verb idus.us.es/xmlui/handle/11441/43063
+      \endverb
+      \verb{url}
+      \verb idus.us.es/xmlui/handle/11441/43063
+      \endverb
+      \keyw{18D50,18G55,03E10}
+    \endentry
+    \entry{zbMATH06451815}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{fullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{bibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorbibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authornamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorfullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1753-8416}
+      \field{journaltitle}{J. Topol.}
+      \field{number}{2}
+      \field{title}{Dwyer-{Kan} homotopy theory of enriched categories}
+      \field{volume}{8}
+      \field{year}{2015}
+      \true{nocite}
+      \field{pages}{377\bibrangedash 413}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1112/jtopol/jtu029
+      \endverb
+      \verb{urlraw}
+      \verb idus.us.es/xmlui/handle/11441/43027
+      \endverb
+      \verb{url}
+      \verb idus.us.es/xmlui/handle/11441/43027
+      \endverb
+      \keyw{18D20,18G55,55U35}
+    \endentry
+    \entry{zbMATH07190145}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{fullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{bibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorbibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authornamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorfullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \field{extraname}{4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2193-8407}
+      \field{journaltitle}{J. Homotopy Relat. Struct.}
+      \field{number}{1}
+      \field{title}{Enhanced {{\(A_{\infty}\)}}-obstruction theory}
+      \field{volume}{15}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{61\bibrangedash 112}
+      \range{pages}{52}
+      \verb{doi}
+      \verb 10.1007/s40062-019-00245-0
+      \endverb
+      \keyw{18G40,55S35,16E40}
+    \endentry
+    \entry{zbMATH07506910}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{fullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{bibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorbibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authornamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorfullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \field{extraname}{5}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1474-7480}
+      \field{journaltitle}{J. Inst. Math. Jussieu}
+      \field{number}{3}
+      \field{title}{Enhanced finite triangulated categories}
+      \field{volume}{21}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{741\bibrangedash 783}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.1017/S1474748020000250
+      \endverb
+      \keyw{18E30,16E40,18G40,55S35}
+    \endentry
+    \entry{zbMATH06243329}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{fullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{bibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorbibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authornamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorfullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \field{extraname}{6}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1472-2747}
+      \field{journaltitle}{Algebr. Geom. Topol.}
+      \field{number}{1}
+      \field{title}{Homotopy theory of non-symmetric operads. {II}: {Change} of base category and left properness}
+      \field{volume}{14}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{229\bibrangedash 281}
+      \range{pages}{53}
+      \verb{doi}
+      \verb 10.2140/agt.2014.14.229
+      \endverb
+      \keyw{18D50,18D10,18G55,55U35}
+    \endentry
+    \entry{zbMATH05904608}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{fullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{bibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorbibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authornamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorfullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \field{extraname}{7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1472-2747}
+      \field{journaltitle}{Algebr. Geom. Topol.}
+      \field{number}{3}
+      \field{title}{Homotopy theory of nonsymmetric operads}
+      \field{volume}{11}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{1541\bibrangedash 1599}
+      \range{pages}{59}
+      \verb{doi}
+      \verb 10.2140/agt.2011.11.1541
+      \endverb
+      \keyw{18D50,18G55,18D10,55U35}
+    \endentry
+    \entry{zbMATH06550647}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{fullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{bibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorbibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authornamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorfullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \field{extraname}{8}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-9947}
+      \field{journaltitle}{Trans. Am. Math. Soc.}
+      \field{number}{3}
+      \field{title}{Homotopy units in {{\(A\)}}-infinity algebras}
+      \field{volume}{368}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{2145\bibrangedash 2184}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1090/tran/6545
+      \endverb
+      \keyw{18D50,55P48,18G55}
+    \endentry
+    \entry{zbMATH05306025}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{fullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{bibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorbibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authornamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorfullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \field{extraname}{9}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1073-7928}
+      \field{journaltitle}{Int. Math. Res. Not.}
+      \field{note}{Id/No rnm153}
+      \field{title}{Maltsiniotis's first conjecture for {{\(K_{1}\)}}}
+      \field{volume}{2008}
+      \field{year}{2008}
+      \true{nocite}
+      \field{pages}{31}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1093/imrn/rnm153
+      \endverb
+      \keyw{19D99,18E10,18E30,19B99,55P42}
+    \endentry
+    \entry{zbMATH06281920}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{fullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{bibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorbibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authornamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorfullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \field{extraname}{10}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1472-2747}
+      \field{journaltitle}{Algebr. Geom. Topol.}
+      \field{number}{3}
+      \field{title}{Moduli spaces of algebras over nonsymmetric operads}
+      \field{volume}{14}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{1489\bibrangedash 1539}
+      \range{pages}{51}
+      \verb{doi}
+      \verb 10.2140/agt.2014.14.1489
+      \endverb
+      \keyw{18D50,14K10,55U35}
+    \endentry
+    \entry{zbMATH02244508}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{fullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{bibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorbibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authornamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorfullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \field{extraname}{11}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-4049}
+      \field{journaltitle}{J. Pure Appl. Algebra}
+      \field{number}{3}
+      \field{title}{On the functoriality of cohomology of categories}
+      \field{volume}{204}
+      \field{year}{2006}
+      \true{nocite}
+      \field{pages}{455\bibrangedash 472}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.jpaa.2005.05.004
+      \endverb
+      \verb{urlraw}
+      \verb idus.us.es/xmlui/handle/11441/41897
+      \endverb
+      \verb{url}
+      \verb idus.us.es/xmlui/handle/11441/41897
+      \endverb
+      \keyw{18G60,18D05,18E35}
+    \endentry
+    \entry{zbMATH06454207}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{fullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{bibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorbibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authornamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorfullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \field{extraname}{12}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0166-8641}
+      \field{journaltitle}{Topology Appl.}
+      \field{title}{On the unit of a monoidal model category}
+      \field{volume}{191}
+      \field{year}{2015}
+      \true{nocite}
+      \field{pages}{37\bibrangedash 47}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.topol.2015.05.006
+      \endverb
+      \keyw{55P42,55U35}
+    \endentry
+    \entry{zbMATH05068816}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{fullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{bibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorbibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authornamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorfullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \field{extraname}{13}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0920-3036}
+      \field{journaltitle}{\(K\)-Theory}
+      \field{number}{1}
+      \field{title}{Representation theory of some infinite dimensional algebras arising in continuously controlled algebra and topology.}
+      \field{volume}{33}
+      \field{year}{2004}
+      \true{nocite}
+      \field{pages}{23\bibrangedash 65}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.1007/s10977-004-1837-4
+      \endverb
+      \verb{urlraw}
+      \verb idus.us.es/xmlui/handle/11441/41899
+      \endverb
+      \verb{url}
+      \verb idus.us.es/xmlui/handle/11441/41899
+      \endverb
+      \keyw{16G60,16S50,19J25,57N99}
+    \endentry
+    \entry{zbMATH02172214}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{fullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{bibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorbibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authornamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorfullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \field{extraname}{14}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-9947}
+      \field{journaltitle}{Trans. Am. Math. Soc.}
+      \field{number}{9}
+      \field{title}{Suspensions of crossed and quadratic complexes, co-{H}-structures and applications}
+      \field{volume}{357}
+      \field{year}{2005}
+      \true{nocite}
+      \field{pages}{3623\bibrangedash 3653}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1090/S0002-9947-04-03597-4
+      \endverb
+      \keyw{55P40,55P45,55P65,55U15,20F14,20F18,20J05}
+    \endentry
+    \entry{zbMATH07242463}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{fullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{bibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorbibnamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authornamehash}{6938e33b89d9c7d34741764fa8faa49b}
+      \strng{authorfullhash}{6938e33b89d9c7d34741764fa8faa49b}
+      \field{extraname}{15}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0025-5874}
+      \field{journaltitle}{Math. Z.}
+      \field{number}{1-2}
+      \field{title}{The first obstructions to enhancing a triangulated category}
+      \field{volume}{296}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{719\bibrangedash 759}
+      \range{pages}{41}
+      \verb{doi}
+      \verb 10.1007/s00209-019-02438-y
+      \endverb
+      \keyw{18E30,16E40,18G50,18G60,18E30,16G70}
+    \endentry
+    \entry{zbMATH05918250}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e1ff16ab42714236b238e8c9053570d9}{%
+           family={Raptis},
+           familyi={R\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{dd96127b9d645fd940bf167d25e87e26}
+      \strng{fullhash}{dd96127b9d645fd940bf167d25e87e26}
+      \strng{bibnamehash}{dd96127b9d645fd940bf167d25e87e26}
+      \strng{authorbibnamehash}{dd96127b9d645fd940bf167d25e87e26}
+      \strng{authornamehash}{dd96127b9d645fd940bf167d25e87e26}
+      \strng{authorfullhash}{dd96127b9d645fd940bf167d25e87e26}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-8708}
+      \field{journaltitle}{Adv. Math.}
+      \field{number}{5}
+      \field{title}{A note on {{\(K\)}}-theory and triangulated derivators}
+      \field{volume}{227}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{1827\bibrangedash 1845}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1016/j.aim.2011.04.005
+      \endverb
+      \keyw{19D99,18E30,16E45}
+    \endentry
+    \entry{zbMATH06673997}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0ed90172d7e9c13fa21a609f79c83080}{%
+           family={Raptis},
+           familyi={R\bibinitperiod},
+           given={Georgios},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{d0ad77d4a0705c66f0473d8776a042ac}
+      \strng{fullhash}{d0ad77d4a0705c66f0473d8776a042ac}
+      \strng{bibnamehash}{d0ad77d4a0705c66f0473d8776a042ac}
+      \strng{authorbibnamehash}{d0ad77d4a0705c66f0473d8776a042ac}
+      \strng{authornamehash}{d0ad77d4a0705c66f0473d8776a042ac}
+      \strng{authorfullhash}{d0ad77d4a0705c66f0473d8776a042ac}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2379-1683}
+      \field{journaltitle}{Ann. \(K\)-Theory}
+      \field{number}{2}
+      \field{title}{{{\(K\)}}-theory of derivators revisited}
+      \field{volume}{2}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{303\bibrangedash 340}
+      \range{pages}{38}
+      \verb{doi}
+      \verb 10.2140/akt.2017.2.303
+      \endverb
+      \keyw{19D99,55U35}
+    \endentry
+    \entry{zbMATH06548165}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0d8d34a0c1cae9d58e0c657886620c1d}{%
+           family={Raventós},
+           familyi={R\bibinitperiod},
+           given={Oriol},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{5a7877b07cb3e574965faea6e1a57c58}
+      \strng{fullhash}{5a7877b07cb3e574965faea6e1a57c58}
+      \strng{bibnamehash}{5a7877b07cb3e574965faea6e1a57c58}
+      \strng{authorbibnamehash}{5a7877b07cb3e574965faea6e1a57c58}
+      \strng{authornamehash}{5a7877b07cb3e574965faea6e1a57c58}
+      \strng{authorfullhash}{5a7877b07cb3e574965faea6e1a57c58}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-8708}
+      \field{journaltitle}{Adv. Math.}
+      \field{title}{Transfinite {Adams} representability}
+      \field{volume}{292}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{111\bibrangedash 180}
+      \range{pages}{70}
+      \verb{doi}
+      \verb 10.1016/j.aim.2016.01.009
+      \endverb
+      \keyw{18E30,55S35,55S45,18G20}
+    \endentry
+    \entry{zbMATH07006249}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=bf6ee079428733827b3b153f330279b4}{%
+           family={Roitzheim},
+           familyi={R\bibinitperiod},
+           given={Constanze},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{df7c57765a4a01eb38d2d51b651c1a65}
+      \strng{fullhash}{df7c57765a4a01eb38d2d51b651c1a65}
+      \strng{bibnamehash}{df7c57765a4a01eb38d2d51b651c1a65}
+      \strng{authorbibnamehash}{df7c57765a4a01eb38d2d51b651c1a65}
+      \strng{authornamehash}{df7c57765a4a01eb38d2d51b651c1a65}
+      \strng{authorfullhash}{df7c57765a4a01eb38d2d51b651c1a65}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-4049}
+      \field{journaltitle}{J. Pure Appl. Algebra}
+      \field{number}{5}
+      \field{title}{Homotopy theory of bicomplexes}
+      \field{volume}{223}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{1913\bibrangedash 1939}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1016/j.jpaa.2018.08.007
+      \endverb
+      \verb{urlraw}
+      \verb kar.kent.ac.uk/67611/1/bi_and_twisted_complexes_revision.pdf
+      \endverb
+      \verb{url}
+      \verb kar.kent.ac.uk/67611/1/bi_and_twisted_complexes_revision.pdf
+      \endverb
+      \keyw{18G55,55U35}
+    \endentry
+    \entry{zbMATH05208165}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=48d1fc5c8a97cb0633a8f2ffb7fcbf7b}{%
+           family={Schwede},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7d41ffc2c46af790df2405d5fcdc8cc9}{%
+           family={Strickland},
+           familyi={S\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{5eae652b93cfe1a88d313bf13733489d}
+      \strng{fullhash}{5eae652b93cfe1a88d313bf13733489d}
+      \strng{bibnamehash}{5eae652b93cfe1a88d313bf13733489d}
+      \strng{authorbibnamehash}{5eae652b93cfe1a88d313bf13733489d}
+      \strng{authornamehash}{5eae652b93cfe1a88d313bf13733489d}
+      \strng{authorfullhash}{5eae652b93cfe1a88d313bf13733489d}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0020-9910}
+      \field{journaltitle}{Invent. Math.}
+      \field{number}{2}
+      \field{title}{Triangulated categories without models}
+      \field{volume}{170}
+      \field{year}{2007}
+      \true{nocite}
+      \field{pages}{231\bibrangedash 241}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1007/s00222-007-0061-2
+      \endverb
+      \verb{urlraw}
+      \verb idus.us.es/xmlui/handle/11441/41893
+      \endverb
+      \verb{url}
+      \verb idus.us.es/xmlui/handle/11441/41893
+      \endverb
+      \keyw{18E30,55P42,16E45,13D25}
+    \endentry
+    \entry{zbMATH05381934}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6591db3f835438b08de0c50db0fa71f5}{%
+           family={Tonks},
+           familyi={T\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Zürich: European Mathematical Society (EMS)}%
+      }
+      \strng{namehash}{2db0e449ce20846b323b65b1051f3b53}
+      \strng{fullhash}{2db0e449ce20846b323b65b1051f3b53}
+      \strng{bibnamehash}{2db0e449ce20846b323b65b1051f3b53}
+      \strng{authorbibnamehash}{2db0e449ce20846b323b65b1051f3b53}
+      \strng{authornamehash}{2db0e449ce20846b323b65b1051f3b53}
+      \strng{authorfullhash}{2db0e449ce20846b323b65b1051f3b53}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{\(K\)-theory and noncommutative geometry. Proceedings of the ICM 2006 satellite conference, Valladolid, Spain, August 31--September 6, 2006}
+      \field{isbn}{978-3-03719-060-9}
+      \field{title}{On {{\(K_1\)}} of a {Waldhausen} category}
+      \field{year}{2008}
+      \true{nocite}
+      \field{pages}{91\bibrangedash 115}
+      \range{pages}{25}
+      \keyw{18F25,19D10}
+    \endentry
+    \entry{zbMATH05201720}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6591db3f835438b08de0c50db0fa71f5}{%
+           family={Tonks},
+           familyi={T\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{2db0e449ce20846b323b65b1051f3b53}
+      \strng{fullhash}{2db0e449ce20846b323b65b1051f3b53}
+      \strng{bibnamehash}{2db0e449ce20846b323b65b1051f3b53}
+      \strng{authorbibnamehash}{2db0e449ce20846b323b65b1051f3b53}
+      \strng{authornamehash}{2db0e449ce20846b323b65b1051f3b53}
+      \strng{authorfullhash}{2db0e449ce20846b323b65b1051f3b53}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-8708}
+      \field{journaltitle}{Adv. Math.}
+      \field{number}{1}
+      \field{title}{The 1-type of a {Waldhausen} {{\(K\)}}-theory spectrum}
+      \field{volume}{216}
+      \field{year}{2007}
+      \true{nocite}
+      \field{pages}{178\bibrangedash 211}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1016/j.aim.2007.05.008
+      \endverb
+      \keyw{19B99,16E20,18G50,18G55}
+    \endentry
+    \entry{zbMATH06342603}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6591db3f835438b08de0c50db0fa71f5}{%
+           family={Tonks},
+           familyi={T\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{2db0e449ce20846b323b65b1051f3b53}
+      \strng{fullhash}{2db0e449ce20846b323b65b1051f3b53}
+      \strng{bibnamehash}{2db0e449ce20846b323b65b1051f3b53}
+      \strng{authorbibnamehash}{2db0e449ce20846b323b65b1051f3b53}
+      \strng{authornamehash}{2db0e449ce20846b323b65b1051f3b53}
+      \strng{authorfullhash}{2db0e449ce20846b323b65b1051f3b53}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0933-7741}
+      \field{journaltitle}{Forum Math.}
+      \field{number}{2}
+      \field{title}{Unital associahedra}
+      \field{volume}{26}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{593\bibrangedash 620}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1515/forum-2011-0130
+      \endverb
+      \verb{urlraw}
+      \verb idus.us.es/handle/11441/41889
+      \endverb
+      \verb{url}
+      \verb idus.us.es/handle/11441/41889
+      \endverb
+      \keyw{18D50,18G55}
+    \endentry
+    \entry{zbMATH06417698}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6938e33b89d9c7d34741764fa8faa49b}{%
+           family={Muro},
+           familyi={M\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6591db3f835438b08de0c50db0fa71f5}{%
+           family={Tonks},
+           familyi={T\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ba577a2670204d66d8bd9c9eff25c645}{%
+           family={Witte},
+           familyi={W\bibinitperiod},
+           given={Malte},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{fb5b90291ed44dff8299fd77fe63e584}
+      \strng{fullhash}{fb5b90291ed44dff8299fd77fe63e584}
+      \strng{bibnamehash}{fb5b90291ed44dff8299fd77fe63e584}
+      \strng{authorbibnamehash}{fb5b90291ed44dff8299fd77fe63e584}
+      \strng{authornamehash}{fb5b90291ed44dff8299fd77fe63e584}
+      \strng{authorfullhash}{fb5b90291ed44dff8299fd77fe63e584}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0214-1493}
+      \field{journaltitle}{Publ. Mat., Barc.}
+      \field{number}{1}
+      \field{title}{On determinant functors and {{\(K\)}}-theory}
+      \field{volume}{59}
+      \field{year}{2015}
+      \true{nocite}
+      \field{pages}{137\bibrangedash 233}
+      \range{pages}{97}
+      \verb{doi}
+      \verb 10.5565/PUBLMAT_59115_07
+      \endverb
+      \keyw{19A99,18E10,18E30,18G55,19B99}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
