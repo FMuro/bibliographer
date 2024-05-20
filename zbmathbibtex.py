@@ -1,7 +1,7 @@
 import urllib
 import urllib.request
 baseurl = 'https://zbmath.org/bibtexoutput/?q=ia%3A'
-authors = ['muro.fernando', 'gonzalez-meneses.juan']
+authors = ['muro.fernando', 'gonzalez-meneses.juan', 'flores.ramon-j', 'silvero.marithania', 'carmona-sanchez.v', 'cumplido.maria', 'manchon.pedro-m-g']
 f = open("zbmath.bib", "w")
 for author in authors:
     # the replacement {\'{\i}} -> í is done in order to avoid biblatex/biber errors

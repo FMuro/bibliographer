@@ -12,8 +12,8 @@ import sys
 # reload(sys)
 # sys.setdefaultencoding("utf-8")
 
-author = "0000-0001-8457-9889"
-arXivURL = "https://arxiv.org/a/"+author+".atom"
+authors = ["0000-0001-8457-9889", "0000-0002-2520-2755", "0000-0002-9786-0650", "0000-0003-2865-0219", "0000-0002-8806-3561", "0000-0003-3946-792X"]#, "0000-0002-5537-3299"]
+arXivURLs = ["https://arxiv.org/a/"+author+".atom" for author in authors]
 
 IDCleanerRE = re.compile(r"[^0-9]*([0-9]*)\.?([0-9]*)")
 
@@ -112,115 +112,116 @@ def bibTeXMarkup(items, format):
     return "".join(markup)
 
 
-download = urllib.request.urlopen(arXivURL)
-download.encoding = "UTF-8"
-downloadedData = download.read()
-if downloadedData == None:
-    printHtml("The arXiv data could not be retrieved.")
-else:
-    f = open("arxiv.bib", "w")
-    publications = []
-    feed = xml.etree.ElementTree.fromstring(downloadedData)
-
-    """	Check for an error by looking at the title of the first paper: errors are marked by 'Error', empty feeds don't have a title """
-    firstTitle = feed.find(
-        "{http://www.w3.org/2005/Atom}entry/{http://www.w3.org/2005/Atom}title")
-    if firstTitle == None or firstTitle.text == "Error":
-        printHtml(extraInfo())
-        printHtml("The arXiv did not return any results for the ORCID: " +
-                  author + " you entered. Any chance there may be a typo in there?")
+for arXivURL in arXivURLs:
+    download = urllib.request.urlopen(arXivURL)
+    download.encoding = "UTF-8"
+    downloadedData = download.read()
+    if downloadedData == None:
+        printHtml("The arXiv data could not be retrieved.")
     else:
-        """ We got data and no error: Process it. """
-        papersiterator = feed.iter("{http://www.w3.org/2005/Atom}entry")
-        for paper in papersiterator:
-            titleElement = paper.find("{http://www.w3.org/2005/Atom}title")
-            if titleElement == None:
-                continue
-            theTitle = re.sub(r"\s*\n\s*", r" ", titleElement.text)
-            authors = paper.iter("{http://www.w3.org/2005/Atom}author")
-            theAuthors = []
-            for author in authors:
-                name = author.find("{http://www.w3.org/2005/Atom}name").text
-                theAuthors += [name]
-            theAbstract = paper.find(
-                "{http://www.w3.org/2005/Atom}summary").text.strip()
+        f = open("arxiv.bib", "w")
+        publications = []
+        feed = xml.etree.ElementTree.fromstring(downloadedData)
 
-            links = paper.iter("{http://www.w3.org/2005/Atom}link")
-            thePDF = ""
-            theLink = ""
-            for link in links:
-                attributes = link.attrib
-                if "href" in attributes:
-                    linktarget = attributes["href"]
-                    linktype = attributes["type"] if "type" in attributes else None
-                    linktitle = attributes["title"] if "title" in attributes else None
-                if linktype == "application/pdf":
-                    thePDF = linktarget
-                elif linktype == "text/html":
-                    theLink = linktarget
-            splitLink = theLink.split("/abs/")
-            theID = splitLink[-1].split('v')[0]
-            theLink = splitLink[0] + "/abs/" + theID
+        """	Check for an error by looking at the title of the first paper: errors are marked by 'Error', empty feeds don't have a title """
+        firstTitle = feed.find(
+            "{http://www.w3.org/2005/Atom}entry/{http://www.w3.org/2005/Atom}title")
+        if firstTitle == None or firstTitle.text == "Error":
+            printHtml(extraInfo())
+            printHtml("The arXiv did not return any results for the ORCID: " +
+                    author + " you entered. Any chance there may be a typo in there?")
+        else:
+            """ We got data and no error: Process it. """
+            papersiterator = feed.iter("{http://www.w3.org/2005/Atom}entry")
+            for paper in papersiterator:
+                titleElement = paper.find("{http://www.w3.org/2005/Atom}title")
+                if titleElement == None:
+                    continue
+                theTitle = re.sub(r"\s*\n\s*", r" ", titleElement.text)
+                authors = paper.iter("{http://www.w3.org/2005/Atom}author")
+                theAuthors = []
+                for author in authors:
+                    name = author.find("{http://www.w3.org/2005/Atom}name").text
+                    theAuthors += [name]
+                theAbstract = paper.find(
+                    "{http://www.w3.org/2005/Atom}summary").text.strip()
 
-            theYear = paper.find(
-                "{http://www.w3.org/2005/Atom}published").text.split('-')[0]
+                links = paper.iter("{http://www.w3.org/2005/Atom}link")
+                thePDF = ""
+                theLink = ""
+                for link in links:
+                    attributes = link.attrib
+                    if "href" in attributes:
+                        linktarget = attributes["href"]
+                        linktype = attributes["type"] if "type" in attributes else None
+                        linktitle = attributes["title"] if "title" in attributes else None
+                    if linktype == "application/pdf":
+                        thePDF = linktarget
+                    elif linktype == "text/html":
+                        theLink = linktarget
+                splitLink = theLink.split("/abs/")
+                theID = splitLink[-1].split('v')[0]
+                theLink = splitLink[0] + "/abs/" + theID
 
-            theDOIs = []
-            DOIs = paper.iter("{http://arxiv.org/schemas/atom}doi")
-            for DOI in DOIs:
-                theDOIs += [DOI.text]
+                theYear = paper.find(
+                    "{http://www.w3.org/2005/Atom}published").text.split('-')[0]
 
-            journal = paper.find("{http://arxiv.org/schemas/atom}journal_ref")
-            theJournal = None
-            if journal != None:
-                theJournal = journal.text
+                theDOIs = []
+                DOIs = paper.iter("{http://arxiv.org/schemas/atom}doi")
+                for DOI in DOIs:
+                    theDOIs += [DOI.text]
 
-            publicationDict = dict({
-                "ID": theID,
-                "authors": theAuthors,
-                "title": theTitle,
-                "abstract": theAbstract,
-                "year": theYear,
-                "PDF": thePDF,
-                "link": theLink,
-                "DOI": theDOIs,
-                "journal": theJournal})
-            publications += [publicationDict]
+                journal = paper.find("{http://arxiv.org/schemas/atom}journal_ref")
+                theJournal = None
+                if journal != None:
+                    theJournal = journal.text
 
-        preprintIDs = []
-        preprints = []
-        publishedIDs = []
-        published = []
+                publicationDict = dict({
+                    "ID": theID,
+                    "authors": theAuthors,
+                    "title": theTitle,
+                    "abstract": theAbstract,
+                    "year": theYear,
+                    "PDF": thePDF,
+                    "link": theLink,
+                    "DOI": theDOIs,
+                    "journal": theJournal})
+                publications += [publicationDict]
 
-        publications.sort(key=cmp_to_key(
-            comparePaperDictionaries), reverse=True)
+            preprintIDs = []
+            preprints = []
+            publishedIDs = []
+            published = []
 
-        for publication in publications:
-            # LATER SKIP PUBLISHED PAPERS
-            if publication["journal"] != None:
-                published += [publication]
-                publishedIDs += [publication["ID"]]
-            else:
-                preprints += [publication]
-                preprintIDs += [publication["ID"]]
+            publications.sort(key=cmp_to_key(
+                comparePaperDictionaries), reverse=True)
 
-        f.write("% BIBTEX\n\n")
-        if len(preprints) > 0:
-            f.write("% PREPRINTS")
-            f.write(str(bibTeXMarkup(preprints, "bibtex")))
-        if len(published) > 0:
+            for publication in publications:
+                # LATER SKIP PUBLISHED PAPERS
+                if publication["journal"] != None:
+                    published += [publication]
+                    publishedIDs += [publication["ID"]]
+                else:
+                    preprints += [publication]
+                    preprintIDs += [publication["ID"]]
+
+            f.write("% BIBTEX\n\n")
+            if len(preprints) > 0:
+                f.write("% PREPRINTS")
+                f.write(str(bibTeXMarkup(preprints, "bibtex")))
+            if len(published) > 0:
+                f.write("\n\n")
+                f.write("% PUBLISHED")
+                f.write(str(bibTeXMarkup(published, "bibtex")))
+
+            f.write("\n\n\n")
+
+            f.write("% BIBLATEX\n\n")
+            if len(preprints) > 0:
+                f.write("% PREPRINTS")
+                f.write(str(bibTeXMarkup(preprints, "biblatex")))
+            if len(published) > 0:
+                f.write("\n\n")
+                f.write("% PUBLISHED")
+                f.write(str(bibTeXMarkup(published, "biblatex")))
             f.write("\n\n")
-            f.write("% PUBLISHED")
-            f.write(str(bibTeXMarkup(published, "bibtex")))
-
-        f.write("\n\n\n")
-
-        f.write("% BIBLATEX\n\n")
-        if len(preprints) > 0:
-            f.write("% PREPRINTS")
-            f.write(str(bibTeXMarkup(preprints, "biblatex")))
-        if len(published) > 0:
-            f.write("\n\n")
-            f.write("% PUBLISHED")
-            f.write(str(bibTeXMarkup(published, "biblatex")))
-        f.write("\n\n")
