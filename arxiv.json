@@ -1,0 +1,580 @@
+[
+  {
+    "author": [
+      {
+        "family": "Blasco-García",
+        "given": "Rubén"
+      },
+      {
+        "family": "Cumplido",
+        "given": "María"
+      },
+      {
+        "family": "Morris-Wright",
+        "given": "Rose"
+      }
+    ],
+    "id": "2204.03523",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "title": "The Word Problem is Solvable for 3-free Artin groups in Quadratic Time",
+    "type": ""
+  },
+  {
+    "author": [
+      {
+        "family": "Cumplido",
+        "given": "María"
+      },
+      {
+        "family": "Kahrobaei",
+        "given": "Delaram"
+      },
+      {
+        "family": "Noce",
+        "given": "Marialaura"
+      }
+    ],
+    "id": "2203.15898",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "title": "The root extraction problem in braid group-based cryptography",
+    "type": ""
+  },
+  {
+    "author": [
+      {
+        "family": "Cumplido",
+        "given": "María"
+      },
+      {
+        "family": "Martin",
+        "given": "Alexandre"
+      },
+      {
+        "family": "Vaskou",
+        "given": "Nicolas"
+      }
+    ],
+    "id": "2012.02693",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "Parabolic subgroups of large-type Artin groups",
+    "type": ""
+  },
+  {
+    "author": [
+      {
+        "family": "Aroca",
+        "given": "Julio"
+      },
+      {
+        "family": "Cumplido",
+        "given": "María"
+      }
+    ],
+    "id": "2005.09593",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "A new family of infinitely braided Thompson’s groups",
+    "type": ""
+  },
+  {
+    "author": [
+      {
+        "family": "Cumplido",
+        "given": "María"
+      },
+      {
+        "family": "González-Meneses",
+        "given": "Juan"
+      },
+      {
+        "family": "Silvero",
+        "given": "Marithania"
+      }
+    ],
+    "id": "1909.10962",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "title": "The root extraction problem for generic braids",
+    "type": ""
+  },
+  {
+    "author": [
+      {
+        "family": "Cumplido",
+        "given": "María"
+      },
+      {
+        "family": "Paris",
+        "given": "Luis"
+      }
+    ],
+    "id": "1904.09461",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "title": "Commensurability in Artin groups of spherical type",
+    "type": ""
+  },
+  {
+    "author": [
+      {
+        "family": "Cumplido",
+        "given": "María"
+      }
+    ],
+    "id": "1708.09310",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "title": "On the minimal positive standardizer of a parabolic subgroup of an Artin-Tits group",
+    "type": ""
+  },
+  {
+    "author": [
+      {
+        "family": "Cumplido",
+        "given": "María"
+      }
+    ],
+    "id": "1706.08377",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "title": "On the loxodromic actions of Artin-Tits groups",
+    "type": ""
+  },
+  {
+    "DOI": "10.1112/blms.12148",
+    "author": [
+      {
+        "family": "Cumplido",
+        "given": "María"
+      },
+      {
+        "family": "Wiest",
+        "given": "Bert"
+      }
+    ],
+    "id": "1703.05044",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "title": "A positive proportion of elements of mapping class groups is pseudo-Anosov",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.1007/s00009-022-02153-9",
+    "author": [
+      {
+        "family": "Cumplido",
+        "given": "María"
+      }
+    ],
+    "id": "2107.13372",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "publisher": "Mediterr. J. Math. 19, 237 (2022)",
+    "title": "The conjugacy stability problem for parabolic subgroups in Artin groups",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.2140/agt.2021.21.1791",
+    "author": [
+      {
+        "family": "Antolín",
+        "given": "Yago"
+      },
+      {
+        "family": "Cumplido",
+        "given": "María"
+      }
+    ],
+    "id": "1906.06325",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "publisher": "Algebr. Geom. Topol. 21 (2021) 1791-1816",
+    "title": "Parabolic subgroups acting on the additional length graph",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.1016/j.aim.2019.06.010",
+    "author": [
+      {
+        "family": "Cumplido",
+        "given": "María"
+      },
+      {
+        "family": "Gebhardt",
+        "given": "Volker"
+      },
+      {
+        "family": "González-Meneses",
+        "given": "Juan"
+      },
+      {
+        "family": "Wiest",
+        "given": "Bert"
+      }
+    ],
+    "id": "1712.06727",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "publisher": "Advances in Mathematics 352 (2019) 572-610",
+    "title": "On parabolic subgroups of Artin-Tits groups of spherical type",
+    "type": "article-journal"
+  },
+  {
+    "URL": "https://arxiv.org/abs/2204.03523",
+    "author": [
+      {
+        "family": "Blasco-García",
+        "given": "Rubén"
+      },
+      {
+        "family": "Cumplido",
+        "given": "María"
+      },
+      {
+        "family": "Morris-Wright",
+        "given": "Rose"
+      }
+    ],
+    "id": "2204.03523",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "title": "The Word Problem is Solvable for 3-free Artin groups in Quadratic Time",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://arxiv.org/abs/2203.15898",
+    "author": [
+      {
+        "family": "Cumplido",
+        "given": "María"
+      },
+      {
+        "family": "Kahrobaei",
+        "given": "Delaram"
+      },
+      {
+        "family": "Noce",
+        "given": "Marialaura"
+      }
+    ],
+    "id": "2203.15898",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "title": "The root extraction problem in braid group-based cryptography",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://arxiv.org/abs/2012.02693",
+    "author": [
+      {
+        "family": "Cumplido",
+        "given": "María"
+      },
+      {
+        "family": "Martin",
+        "given": "Alexandre"
+      },
+      {
+        "family": "Vaskou",
+        "given": "Nicolas"
+      }
+    ],
+    "id": "2012.02693",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "Parabolic subgroups of large-type Artin groups",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://arxiv.org/abs/2005.09593",
+    "author": [
+      {
+        "family": "Aroca",
+        "given": "Julio"
+      },
+      {
+        "family": "Cumplido",
+        "given": "María"
+      }
+    ],
+    "id": "2005.09593",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "A new family of infinitely braided Thompson’s groups",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://arxiv.org/abs/1909.10962",
+    "author": [
+      {
+        "family": "Cumplido",
+        "given": "María"
+      },
+      {
+        "family": "González-Meneses",
+        "given": "Juan"
+      },
+      {
+        "family": "Silvero",
+        "given": "Marithania"
+      }
+    ],
+    "id": "1909.10962",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "title": "The root extraction problem for generic braids",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://arxiv.org/abs/1904.09461",
+    "author": [
+      {
+        "family": "Cumplido",
+        "given": "María"
+      },
+      {
+        "family": "Paris",
+        "given": "Luis"
+      }
+    ],
+    "id": "1904.09461",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "title": "Commensurability in Artin groups of spherical type",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://arxiv.org/abs/1708.09310",
+    "author": [
+      {
+        "family": "Cumplido",
+        "given": "María"
+      }
+    ],
+    "id": "1708.09310",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "title": "On the minimal positive standardizer of a parabolic subgroup of an Artin-Tits group",
+    "type": "webpage"
+  },
+  {
+    "URL": "https://arxiv.org/abs/1706.08377",
+    "author": [
+      {
+        "family": "Cumplido",
+        "given": "María"
+      }
+    ],
+    "id": "1706.08377",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "title": "On the loxodromic actions of Artin-Tits groups",
+    "type": "webpage"
+  },
+  {
+    "DOI": "10.1112/blms.12148",
+    "URL": "https://arxiv.org/abs/1703.05044",
+    "author": [
+      {
+        "family": "Cumplido",
+        "given": "María"
+      },
+      {
+        "family": "Wiest",
+        "given": "Bert"
+      }
+    ],
+    "id": "1703.05044",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "title": "A positive proportion of elements of mapping class groups is pseudo-Anosov",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.1007/s00009-022-02153-9",
+    "URL": "https://arxiv.org/abs/2107.13372",
+    "author": [
+      {
+        "family": "Cumplido",
+        "given": "María"
+      }
+    ],
+    "id": "2107.13372",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "publisher": "Mediterr. J. Math. 19, 237 (2022)",
+    "title": "The conjugacy stability problem for parabolic subgroups in Artin groups",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.2140/agt.2021.21.1791",
+    "URL": "https://arxiv.org/abs/1906.06325",
+    "author": [
+      {
+        "family": "Antolín",
+        "given": "Yago"
+      },
+      {
+        "family": "Cumplido",
+        "given": "María"
+      }
+    ],
+    "id": "1906.06325",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "publisher": "Algebr. Geom. Topol. 21 (2021) 1791-1816",
+    "title": "Parabolic subgroups acting on the additional length graph",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.1016/j.aim.2019.06.010",
+    "URL": "https://arxiv.org/abs/1712.06727",
+    "author": [
+      {
+        "family": "Cumplido",
+        "given": "María"
+      },
+      {
+        "family": "Gebhardt",
+        "given": "Volker"
+      },
+      {
+        "family": "González-Meneses",
+        "given": "Juan"
+      },
+      {
+        "family": "Wiest",
+        "given": "Bert"
+      }
+    ],
+    "id": "1712.06727",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "publisher": "Advances in Mathematics 352 (2019) 572-610",
+    "title": "On parabolic subgroups of Artin-Tits groups of spherical type",
+    "type": "article-journal"
+  }
+]
