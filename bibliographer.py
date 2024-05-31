@@ -37,26 +37,13 @@ def get_json_from_zbmath(zbmath_author_ID):
 def get_dict_from_arxiv(orcid):
     return feedparser.parse(arxiv_atom_baseurl+orcid+'.atom2')
 
-# create dictionary with paper's zbmath_id : { 'zbmath_url' : zbmath_url, 'bibtex' : bibtex_entry, 'arxiv' : arxiv_ID } the latter only if available
+# create dictionary with paper's zbmath_id : { 'zbmath_url' : zbmath_url, 'arxiv' : arxiv_ID } the latter only if available
 def get_extra_zbmath_data(zbmath_author_ID):
     source = json.loads(get_json_from_zbmath(zbmath_author_ID))
     extra_zbmath_data_dict = {}
     for entry in source["result"]:
         entry_data = {}
         entry_data["zbmath_url"] = entry["zbmath_url"]
-        # get bibtex entry as string
-        #
-        # entry_identifier = entry['identifier']
-        # if not entry_identifier:
-        #     entry_data["bibtex"] = urllib.request.urlopen(
-        #         zbmath_entry_bibtex_baseurl+str(entry['id']).zfill(8)+'.bib').read().decode('utf-8')
-        # elif 'arXiv' in entry_identifier:
-        #     print(arxiv_entry_bibtex_baseurl+entry_identifier)
-        #     entry_data["bibtex"] = urllib.request.urlopen(
-        #     arxiv_entry_bibtex_baseurl+entry_identifier).read().decode('utf-8')
-        # else:
-        #     entry_data["bibtex"] = urllib.request.urlopen(
-        #         zbmath_entry_bibtex_baseurl+entry_identifier+'.bib').read().decode('utf-8')
         for link in entry["links"]:
             if link["type"] == "arxiv":
                 entry_data["arxiv"] = link["identifier"]
@@ -73,7 +60,7 @@ def get_extra_arxiv_data(orcid):
         extra_arxiv_data_dict[re.sub('v[0-9]+', '', entry["id"].replace("http://arxiv.org/abs/",""))] = entry_data
     return extra_arxiv_data_dict
 
-# take bibtex from zbmath, turn it into dict, add keys { 'arxiv', 'zbmath_url', 'zbl', 'abstract' }, the two last ones when arxiv is available
+# take bibtex from zbmath, turn it into dict, add extra data from zbmath and arxiv and also { 'bibtex' : bibtex_entry }
 def merged_data_dict(zbmath_author_ID, orcid):
     bibtex = get_bibtex_from_zbmath(zbmath_author_ID)
     bibtex_split = bibtex.split('\n\n')
@@ -82,7 +69,8 @@ def merged_data_dict(zbmath_author_ID, orcid):
     extra_arxiv_data = get_extra_arxiv_data(orcid)
     for idx, entry in enumerate(data):
         entry_extra_zbmath_data = extra_zbmath_data[int(entry["id"].strip('zbMATH'))]
-        entry["bibtex"] = re.sub('arXiv.*\n', '', re.sub('zbMATH.*\n', '', re.sub('Zbl.*\n', '', bibtex_split[idx])))
+        # bibtex after stripping down non-standard entriesfil
+        entry["bibtex"] = re.sub('arXiv =.*\n', '', re.sub('zbMATH =.*\n', '', re.sub('Zbl =.*\n', '', bibtex_split[idx])))
         entry.update(entry_extra_zbmath_data)
         if "arxiv" in entry_extra_zbmath_data.keys():
             entry.update(extra_arxiv_data[entry_extra_zbmath_data["arxiv"]])
@@ -93,5 +81,3 @@ with open('output.yml', 'w') as outfile:
     yaml.dump(data, outfile, default_flow_style=False)
 with open("output.json", "w") as outfile: 
     json.dump(data, outfile)
-
-# print(get_json_from_zbmath('muro.fernando'))
