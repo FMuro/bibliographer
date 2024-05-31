@@ -9,6 +9,12 @@
     given: Jeroen
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Maes, Jeroen and Muro, Fernando},\n    Title = {Derived\
+    \ homotopy algebras},\n    FJournal = {Proceedings of the Royal Society of Edinburgh.\
+    \ Section A. Mathematics},\n    Journal = {Proc. R. Soc. Edinb., Sect. A, Math.},\n\
+    \    ISSN = {0308-2105},\n    Volume = {153},\n    Number = {4},\n    Pages =\
+    \ {1198--1243},\n    Year = {2023},\n    Language = {English},\n    DOI = {10.1017/prm.2022.42},\n\
+    \    Keywords = {18M70,14A30,16E05,18G10,55U35},\n        }"
   container-title: Proc. R. Soc. Edinb., Sect. A, Math.
   id: zbMATH07719245
   issue: '4'
@@ -33,6 +39,12 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Muro, Fernando},\n    Title = {Massey products for\
+    \ algebras over operads},\n    FJournal = {Communications in Algebra},\n    Journal\
+    \ = {Commun. Algebra},\n    ISSN = {0092-7872},\n    Volume = {51},\n    Number\
+    \ = {8},\n    Pages = {3298--3313},\n    Year = {2023},\n    Language = {English},\n\
+    \    DOI = {10.1080/00927872.2023.2181780},\n    Keywords = {18M70,55S20,13D03,16E40,17B56,55P48},\n\
+    \        }"
   container-title: Commun. Algebra
   id: zbMATH07700052
   issue: '8'
@@ -56,6 +68,12 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Muro, Fernando},\n    Title = {Derived universal\
+    \ {Massey} products},\n    FJournal = {Homology, Homotopy and Applications},\n\
+    \    Journal = {Homology Homotopy Appl.},\n    ISSN = {1532-0073},\n    Volume\
+    \ = {25},\n    Number = {1},\n    Pages = {189--218},\n    Year = {2023},\n  \
+    \  Language = {English},\n    DOI = {10.4310/HHA.2023.v25.n1.a10},\n    Keywords\
+    \ = {18M70,13D03,16E40,17B56,55S20},\n        }"
   container-title: Homology Homotopy Appl.
   id: zbMATH07681901
   issue: '1'
@@ -85,6 +103,9 @@
     given: Ai
   - family: Muro
     given: Fernando
+  bibtex: "@Misc{    Author = {Guan, Ai and Muro, Fernando},\n    Title = {Operations\
+    \ on the de {Rham} cohomology of {Poisson} and {Jacobi} manifolds},\n    Year\
+    \ = {2023},\n    HowPublished = {Preprint, {        }"
   id: zbMATH902382702
   issued:
     date-parts:
@@ -106,6 +127,10 @@
     given: Bernhard
   - family: Muro
     given: Fernando
+  bibtex: "@Misc{    Author = {Jasso, Gustavo and Keller, Bernhard and Muro, Fernando},\n\
+    \    Title = {The {Donovan}--{Wemyss} {Conjecture} via the {Derived} {Auslander}--{Iyama}\
+    \ {Correspondence}},\n    Year = {2023},\n    HowPublished = {Preprint, {    Keywords\
+    \ = {14E30,13D03},\n        }"
   id: zbMATH900577785
   issued:
     date-parts:
@@ -125,6 +150,12 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Muro, Fernando},\n    Title = {Enhanced finite triangulated\
+    \ categories},\n    FJournal = {Journal of the Institute of Mathematics of Jussieu},\n\
+    \    Journal = {J. Inst. Math. Jussieu},\n    ISSN = {1474-7480},\n    Volume\
+    \ = {21},\n    Number = {3},\n    Pages = {741--783},\n    Year = {2022},\n  \
+    \  Language = {English},\n    DOI = {10.1017/S1474748020000250},\n    Keywords\
+    \ = {16E40,18G40,55S35},\n    }"
   container-title: J. Inst. Math. Jussieu
   id: zbMATH07506910
   issue: '3'
@@ -164,6 +195,10 @@
     given: Bernhard
   - family: Muro
     given: Fernando
+  bibtex: "@Misc{    Author = {Jasso, Gustavo and Keller, Bernhard and Muro, Fernando},\n\
+    \    Title = {The {Derived} {Auslander}-{Iyama} {Correspondence}},\n    Year =\
+    \ {2022},\n    HowPublished = {Preprint, {    Keywords = {18G80,18N40},\n    \
+    \    }"
   id: zbMATH900570519
   issued:
     date-parts:
@@ -186,6 +221,9 @@
     given: Ramon
   - family: Muro
     given: Fernando
+  bibtex: "@Misc{    Author = {Carmona, Victor and Flores, Ramon and Muro, Fernando},\n\
+    \    Title = {A model structure for locally constant factorization algebras},\n\
+    \    Year = {2021},\n    HowPublished = {Preprint, {        }"
   id: zbMATH900514688
   issued:
     date-parts:
@@ -205,6 +243,12 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Muro, Fernando},\n    Title = {The first obstructions\
+    \ to enhancing a triangulated category},\n    FJournal = {Mathematische Zeitschrift},\n\
+    \    Journal = {Math. Z.},\n    ISSN = {0025-5874},\n    Volume = {296},\n   \
+    \ Number = {1-2},\n    Pages = {719--759},\n    Year = {2020},\n    Language =\
+    \ {English},\n    DOI = {10.1007/s00209-019-02438-y},\n    Keywords = {18E30,16E40,18G50,18G60,18E30,16G70},\n\
+    \    }"
   container-title: Math. Z.
   id: zbMATH07242463
   issue: 1-2
@@ -222,6 +266,12 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Muro, Fernando},\n    Title = {Enhanced {{\\(A_{\\\
+    infty}\\)}}-obstruction theory},\n    FJournal = {Journal of Homotopy and Related\
+    \ Structures},\n    Journal = {J. Homotopy Relat. Struct.},\n    ISSN = {2193-8407},\n\
+    \    Volume = {15},\n    Number = {1},\n    Pages = {61--112},\n    Year = {2020},\n\
+    \    Language = {English},\n    DOI = {10.1007/s40062-019-00245-0},\n    Keywords\
+    \ = {18G40,55S35,16E40},\n        }"
   container-title: J. Homotopy Relat. Struct.
   id: zbMATH07190145
   issue: '1'
@@ -248,6 +298,12 @@
     given: "Ram\xF3n"
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Flores, Ram{\\'o}n and Muro, Fernando},\n    Title\
+    \ = {Torsion homology and cellular approximation},\n    FJournal = {Algebraic\
+    \ \\& Geometric Topology},\n    Journal = {Algebr. Geom. Topol.},\n    ISSN =\
+    \ {1472-2747},\n    Volume = {19},\n    Number = {1},\n    Pages = {457--476},\n\
+    \    Year = {2019},\n    Language = {English},\n    DOI = {10.2140/agt.2019.19.457},\n\
+    \    Keywords = {20F99,55P60},\n        }"
   container-title: Algebr. Geom. Topol.
   id: zbMATH07053579
   issue: '1'
@@ -275,6 +331,13 @@
     given: Fernando
   - family: Roitzheim
     given: Constanze
+  bibtex: "@Article{    Author = {Muro, Fernando and Roitzheim, Constanze},\n    Title\
+    \ = {Homotopy theory of bicomplexes},\n    FJournal = {Journal of Pure and Applied\
+    \ Algebra},\n    Journal = {J. Pure Appl. Algebra},\n    ISSN = {0022-4049},\n\
+    \    Volume = {223},\n    Number = {5},\n    Pages = {1913--1939},\n    Year =\
+    \ {2019},\n    Language = {English},\n    DOI = {10.1016/j.jpaa.2018.08.007},\n\
+    \    Keywords = {18G55,55U35},\n    URL = {kar.kent.ac.uk/67611/1/bi_and_twisted_complexes_revision.pdf},\n\
+    \        }"
   container-title: J. Pure Appl. Algebra
   id: zbMATH07006249
   issue: '5'
@@ -296,6 +359,12 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Muro, Fernando},\n    Title = {Correction to: ``{Homotopy}\
+    \ theory of nonsymmetric operads. {I}--{II}''},\n    FJournal = {Algebraic \\\
+    & Geometric Topology},\n    Journal = {Algebr. Geom. Topol.},\n    ISSN = {1472-2747},\n\
+    \    Volume = {17},\n    Number = {6},\n    Pages = {3837--3852},\n    Year =\
+    \ {2017},\n    Language = {English},\n    DOI = {10.2140/agt.2017.17.3837},\n\
+    \    Keywords = {18M60,55U35,18M05,18C40,18D20},\n        }"
   container-title: Algebr. Geom. Topol.
   id: zbMATH06791664
   issue: '6'
@@ -324,6 +393,12 @@
     given: Fernando
   - family: Raptis
     given: Georgios
+  bibtex: "@Article{    Author = {Muro, Fernando and Raptis, Georgios},\n    Title\
+    \ = {{{\\(K\\)}}-theory of derivators revisited},\n    FJournal = {Annals of \\\
+    (K\\)-Theory},\n    Journal = {Ann. \\(K\\)-Theory},\n    ISSN = {2379-1683},\n\
+    \    Volume = {2},\n    Number = {2},\n    Pages = {303--340},\n    Year = {2017},\n\
+    \    Language = {English},\n    DOI = {10.2140/akt.2017.2.303},\n    Keywords\
+    \ = {19D99,55U35},\n        }"
   container-title: Ann. $K$-Theory
   id: zbMATH06673997
   issue: '2'
@@ -349,6 +424,13 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Muro, Fernando},\n    Title = {Cylinders for non-symmetric\
+    \ {DG}-operads via homological perturbation theory},\n    FJournal = {Journal\
+    \ of Pure and Applied Algebra},\n    Journal = {J. Pure Appl. Algebra},\n    ISSN\
+    \ = {0022-4049},\n    Volume = {220},\n    Number = {9},\n    Pages = {3248--3281},\n\
+    \    Year = {2016},\n    Language = {English},\n    DOI = {10.1016/j.jpaa.2016.02.013},\n\
+    \    Keywords = {18D50,18G55,03E10},\n    URL = {idus.us.es/xmlui/handle/11441/43063},\n\
+    \        }"
   container-title: J. Pure Appl. Algebra
   id: zbMATH06571599
   issue: '9'
@@ -372,6 +454,12 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Muro, Fernando},\n    Title = {Homotopy units in\
+    \ {{\\(A\\)}}-infinity algebras},\n    FJournal = {Transactions of the American\
+    \ Mathematical Society},\n    Journal = {Trans. Am. Math. Soc.},\n    ISSN = {0002-9947},\n\
+    \    Volume = {368},\n    Number = {3},\n    Pages = {2145--2184},\n    Year =\
+    \ {2016},\n    Language = {English},\n    DOI = {10.1090/tran/6545},\n    Keywords\
+    \ = {18D50,55P48,18G55},\n        }"
   container-title: Trans. Am. Math. Soc.
   id: zbMATH06550647
   issue: '3'
@@ -410,6 +498,12 @@
     given: Fernando
   - family: "Ravent\xF3s"
     given: Oriol
+  bibtex: "@Article{    Author = {Muro, Fernando and Ravent{\\'o}s, Oriol},\n    Title\
+    \ = {Transfinite {Adams} representability},\n    FJournal = {Advances in Mathematics},\n\
+    \    Journal = {Adv. Math.},\n    ISSN = {0001-8708},\n    Volume = {292},\n \
+    \   Pages = {111--180},\n    Year = {2016},\n    Language = {English},\n    DOI\
+    \ = {10.1016/j.aim.2016.01.009},\n    Keywords = {18E30,55S35,55S45,18G20},\n\
+    \        }"
   container-title: Adv. Math.
   id: zbMATH06548165
   issued:
@@ -431,6 +525,11 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Muro, Fernando},\n    Title = {On the unit of a\
+    \ monoidal model category},\n    FJournal = {Topology and its Applications},\n\
+    \    Journal = {Topology Appl.},\n    ISSN = {0166-8641},\n    Volume = {191},\n\
+    \    Pages = {37--47},\n    Year = {2015},\n    Language = {English},\n    DOI\
+    \ = {10.1016/j.topol.2015.05.006},\n    Keywords = {55P42,55U35},\n        }"
   container-title: Topology Appl.
   id: zbMATH06454207
   issued:
@@ -454,6 +553,12 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Muro, Fernando},\n    Title = {Dwyer-{Kan} homotopy\
+    \ theory of enriched categories},\n    FJournal = {Journal of Topology},\n   \
+    \ Journal = {J. Topol.},\n    ISSN = {1753-8416},\n    Volume = {8},\n    Number\
+    \ = {2},\n    Pages = {377--413},\n    Year = {2015},\n    Language = {English},\n\
+    \    DOI = {10.1112/jtopol/jtu029},\n    Keywords = {18D20,18G55,55U35},\n   \
+    \ URL = {idus.us.es/xmlui/handle/11441/43027},\n        }"
   container-title: J. Topol.
   id: zbMATH06451815
   issue: '2'
@@ -486,6 +591,12 @@
     given: Andrew
   - family: Witte
     given: Malte
+  bibtex: "@Article{    Author = {Muro, Fernando and Tonks, Andrew and Witte, Malte},\n\
+    \    Title = {On determinant functors and {{\\(K\\)}}-theory},\n    FJournal =\
+    \ {Publicacions Matem{\\`a}tiques},\n    Journal = {Publ. Mat., Barc.},\n    ISSN\
+    \ = {0214-1493},\n    Volume = {59},\n    Number = {1},\n    Pages = {137--233},\n\
+    \    Year = {2015},\n    Language = {English},\n    DOI = {10.5565/PUBLMAT_59115_07},\n\
+    \    Keywords = {19A99,18E10,18E30,18G55,19B99},\n        }"
   container-title: Publ. Mat., Barc.
   id: zbMATH06417698
   issue: '1'
@@ -510,6 +621,10 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Misc{    Author = {Muro, Fernando},\n    Title = {Enhanced ${A}$-infinity\
+    \ obstruction theory},\n    Year = {2015},\n    HowPublished = {Preprint, {  \
+    \  DOI = {10.1007/s40062-019-00245-0},\n    Keywords = {18G40,18D50,55S35},\n\
+    \        }"
   id: zbMATH900556798
   issued:
     date-parts:
@@ -530,6 +645,12 @@
     given: Fernando
   - family: Tonks
     given: Andrew
+  bibtex: "@Article{    Author = {Muro, Fernando and Tonks, Andrew},\n    Title =\
+    \ {Unital associahedra},\n    FJournal = {Forum Mathematicum},\n    Journal =\
+    \ {Forum Math.},\n    ISSN = {0933-7741},\n    Volume = {26},\n    Number = {2},\n\
+    \    Pages = {593--620},\n    Year = {2014},\n    Language = {English},\n    DOI\
+    \ = {10.1515/forum-2011-0130},\n    Keywords = {18D50,18G55},\n    URL = {idus.us.es/handle/11441/41889},\n\
+    \        }"
   container-title: Forum Math.
   id: zbMATH06342603
   issue: '2'
@@ -557,6 +678,12 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Muro, Fernando},\n    Title = {Moduli spaces of\
+    \ algebras over nonsymmetric operads},\n    FJournal = {Algebraic \\& Geometric\
+    \ Topology},\n    Journal = {Algebr. Geom. Topol.},\n    ISSN = {1472-2747},\n\
+    \    Volume = {14},\n    Number = {3},\n    Pages = {1489--1539},\n    Year =\
+    \ {2014},\n    Language = {English},\n    DOI = {10.2140/agt.2014.14.1489},\n\
+    \    Keywords = {18D50,14K10,55U35},\n        }"
   container-title: Algebr. Geom. Topol.
   id: zbMATH06281920
   issue: '3'
@@ -581,6 +708,13 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Muro, Fernando},\n    Title = {Homotopy theory of\
+    \ non-symmetric operads. {II}: {Change} of base category and left properness},\n\
+    \    FJournal = {Algebraic \\& Geometric Topology},\n    Journal = {Algebr. Geom.\
+    \ Topol.},\n    ISSN = {1472-2747},\n    Volume = {14},\n    Number = {1},\n \
+    \   Pages = {229--281},\n    Year = {2014},\n    Language = {English},\n    DOI\
+    \ = {10.2140/agt.2014.14.229},\n    Keywords = {18D50,18D10,18G55,55U35},\n  \
+    \      }"
   container-title: Algebr. Geom. Topol.
   id: zbMATH06243329
   issue: '1'
@@ -607,6 +741,12 @@
     given: Fernando
   - family: Raptis
     given: George
+  bibtex: "@Article{    Author = {Muro, Fernando and Raptis, George},\n    Title =\
+    \ {A note on {{\\(K\\)}}-theory and triangulated derivators},\n    FJournal =\
+    \ {Advances in Mathematics},\n    Journal = {Adv. Math.},\n    ISSN = {0001-8708},\n\
+    \    Volume = {227},\n    Number = {5},\n    Pages = {1827--1845},\n    Year =\
+    \ {2011},\n    Language = {English},\n    DOI = {10.1016/j.aim.2011.04.005},\n\
+    \    Keywords = {19D99,18E30,16E45},\n        }"
   container-title: Adv. Math.
   id: zbMATH05918250
   issue: '5'
@@ -629,6 +769,12 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Muro, Fernando},\n    Title = {Homotopy theory of\
+    \ nonsymmetric operads},\n    FJournal = {Algebraic \\& Geometric Topology},\n\
+    \    Journal = {Algebr. Geom. Topol.},\n    ISSN = {1472-2747},\n    Volume =\
+    \ {11},\n    Number = {3},\n    Pages = {1541--1599},\n    Year = {2011},\n  \
+    \  Language = {English},\n    DOI = {10.2140/agt.2011.11.1541},\n    Keywords\
+    \ = {18D50,18G55,18D10,55U35},\n        }"
   container-title: Algebr. Geom. Topol.
   id: zbMATH05904608
   issue: '3'
@@ -654,6 +800,13 @@
     given: Hans-Joachim
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Baues, Hans-Joachim and Muro, Fernando},\n    Title\
+    \ = {The algebra of secondary homotopy operations in ring spectra},\n    FJournal\
+    \ = {Proceedings of the London Mathematical Society. Third Series},\n    Journal\
+    \ = {Proc. Lond. Math. Soc. (3)},\n    ISSN = {0024-6115},\n    Volume = {102},\n\
+    \    Number = {4},\n    Pages = {637--696},\n    Year = {2011},\n    Language\
+    \ = {English},\n    DOI = {10.1112/plms/pdq034},\n    Keywords = {55P42,55P43,55Q35,55S20,55S30},\n\
+    \    URL = {idus.us.es/xmlui/handle/11441/41904},\n        }"
   container-title: Proc. Lond. Math. Soc. (3)
   id: zbMATH05882112
   issue: '4'
@@ -678,6 +831,13 @@
     given: Hans-Joachim
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Baues, Hans-Joachim and Muro, Fernando},\n    Title\
+    \ = {Toda brackets and cup-one squares for ring spectra},\n    FJournal = {Communications\
+    \ in Algebra},\n    Journal = {Commun. Algebra},\n    ISSN = {0092-7872},\n  \
+    \  Volume = {37},\n    Number = {1},\n    Pages = {56--82},\n    Year = {2009},\n\
+    \    Language = {English},\n    DOI = {10.1080/00927870802241188},\n    Keywords\
+    \ = {18G50,55P42,55Q35},\n    URL = {idus.us.es/xmlui/handle/11441/41881},\n \
+    \       }"
   container-title: Commun. Algebra
   id: zbMATH05538788
   issue: '1'
@@ -697,6 +857,12 @@
     given: H.-J.
   - family: Muro
     given: F.
+  bibtex: "@Article{    Author = {Baues, H.-J. and Muro, F.},\n    Title = {Cohomologically\
+    \ triangulated categories. {II}},\n    FJournal = {Journal of \\(K\\)-Theory},\n\
+    \    Journal = {J. \\(K\\)-Theory},\n    ISSN = {1865-2433},\n    Volume = {3},\n\
+    \    Number = {1},\n    Pages = {1--52},\n    Year = {2009},\n    Language = {English},\n\
+    \    DOI = {10.1017/is008007021jkt061},\n    Keywords = {18E30,18G60},\n     \
+    \   }"
   container-title: J. $K$-Theory
   id: zbMATH05528664
   issue: '1'
@@ -721,6 +887,12 @@
     given: Hans-Joachim
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Baues, Hans-Joachim and Muro, Fernando},\n    Title\
+    \ = {The symmetric action on secondary homotopy groups},\n    FJournal = {Bulletin\
+    \ of the Belgian Mathematical Society - Simon Stevin},\n    Journal = {Bull. Belg.\
+    \ Math. Soc. - Simon Stevin},\n    ISSN = {1370-1444},\n    Volume = {15},\n \
+    \   Number = {4},\n    Pages = {733--768},\n    Year = {2008},\n    Language =\
+    \ {English},\n    Keywords = {55Q05,55Q25,55S45},\n        }"
   container-title: Bull. Belg. Math. Soc. - Simon Stevin
   id: zbMATH05496973
   issue: '4'
@@ -742,6 +914,13 @@
     given: Fernando
   - family: Tonks
     given: Andrew
+  bibtex: "@InCollection{    Author = {Muro, Fernando and Tonks, Andrew},\n    Title\
+    \ = {On {{\\(K_1\\)}} of a {Waldhausen} category},\n    BookTitle = {\\(K\\)-theory\
+    \ and noncommutative geometry. Proceedings of the ICM 2006 satellite conference,\
+    \ Valladolid, Spain, August 31--September 6, 2006},\n    ISBN = {978-3-03719-060-9},\n\
+    \    Pages = {91--115},\n    Year = {2008},\n    Publisher = {Z{\\\"u}rich: European\
+    \ Mathematical Society (EMS)},\n    Language = {English},\n    Keywords = {18F25,19D10},\n\
+    \        }"
   container-title: "$K$-theory and noncommutative geometry. Proceedings of the ICM\
     \ 2006 satellite conference, Valladolid, Spain, August 31\u2013September 6, 2006"
   id: zbMATH05381934
@@ -767,6 +946,12 @@
     given: Hans-Joachim
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Baues, Hans-Joachim and Muro, Fernando},\n    Title\
+    \ = {Smash products for secondary homotopy groups},\n    FJournal = {Applied Categorical\
+    \ Structures},\n    Journal = {Appl. Categ. Struct.},\n    ISSN = {0927-2852},\n\
+    \    Volume = {16},\n    Number = {5},\n    Pages = {551--616},\n    Year = {2008},\n\
+    \    Language = {English},\n    DOI = {10.1007/s10485-007-9071-x},\n    Keywords\
+    \ = {55Q35,55Q15,55S45},\n        }"
   container-title: Appl. Categ. Struct.
   id: zbMATH05367270
   issue: '5'
@@ -791,6 +976,12 @@
     given: Hans-Joachim
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Baues, Hans-Joachim and Muro, Fernando},\n    Title\
+    \ = {Secondary homotopy groups},\n    FJournal = {Forum Mathematicum},\n    Journal\
+    \ = {Forum Math.},\n    ISSN = {0933-7741},\n    Volume = {20},\n    Number =\
+    \ {4},\n    Pages = {631--677},\n    Year = {2008},\n    Language = {English},\n\
+    \    DOI = {10.1515/FORUM.2008.032},\n    Keywords = {18D05,55Q25,55S45},\n  \
+    \      }"
   container-title: Forum Math.
   id: zbMATH05351182
   issue: '4'
@@ -810,6 +1001,12 @@
     given: H.-J.
   - family: Muro
     given: F.
+  bibtex: "@Article{    Author = {Baues, H.-J. and Muro, F.},\n    Title = {Cohomologically\
+    \ triangulated categories. {I}},\n    FJournal = {Journal of \\(K\\)-Theory},\n\
+    \    Journal = {J. \\(K\\)-Theory},\n    ISSN = {1865-2433},\n    Volume = {1},\n\
+    \    Number = {1},\n    Pages = {3--48},\n    Year = {2008},\n    Language = {English},\n\
+    \    DOI = {10.1017/is007011018jkt019},\n    Keywords = {18E30,18D05},\n     \
+    \   }"
   container-title: J. $K$-Theory
   id: zbMATH05347000
   issue: '1'
@@ -832,6 +1029,12 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Muro, Fernando},\n    Title = {Maltsiniotis's first\
+    \ conjecture for {{\\(K_{1}\\)}}},\n    FJournal = {IMRN. International Mathematics\
+    \ Research Notices},\n    Journal = {Int. Math. Res. Not.},\n    ISSN = {1073-7928},\n\
+    \    Volume = {2008},\n    Pages = {31},\n    Note = {Id/No rnm153},\n    Year\
+    \ = {2008},\n    Language = {English},\n    DOI = {10.1093/imrn/rnm153},\n   \
+    \ Keywords = {19D99,18E10,18E30,19B99,55P42},\n        }"
   container-title: Int. Math. Res. Not.
   id: zbMATH05306025
   issued:
@@ -860,6 +1063,13 @@
     given: Stefan
   - family: Strickland
     given: Neil
+  bibtex: "@Article{    Author = {Muro, Fernando and Schwede, Stefan and Strickland,\
+    \ Neil},\n    Title = {Triangulated categories without models},\n    FJournal\
+    \ = {Inventiones Mathematicae},\n    Journal = {Invent. Math.},\n    ISSN = {0020-9910},\n\
+    \    Volume = {170},\n    Number = {2},\n    Pages = {231--241},\n    Year = {2007},\n\
+    \    Language = {English},\n    DOI = {10.1007/s00222-007-0061-2},\n    Keywords\
+    \ = {18E30,55P42,16E45,13D25},\n    URL = {idus.us.es/xmlui/handle/11441/41893},\n\
+    \        }"
   container-title: Invent. Math.
   id: zbMATH05208165
   issue: '2'
@@ -883,6 +1093,12 @@
     given: Fernando
   - family: Tonks
     given: Andrew
+  bibtex: "@Article{    Author = {Muro, Fernando and Tonks, Andrew},\n    Title =\
+    \ {The 1-type of a {Waldhausen} {{\\(K\\)}}-theory spectrum},\n    FJournal =\
+    \ {Advances in Mathematics},\n    Journal = {Adv. Math.},\n    ISSN = {0001-8708},\n\
+    \    Volume = {216},\n    Number = {1},\n    Pages = {178--211},\n    Year = {2007},\n\
+    \    Language = {English},\n    DOI = {10.1016/j.aim.2007.05.008},\n    Keywords\
+    \ = {19B99,16E20,18G50,18G55},\n        }"
   container-title: Adv. Math.
   id: zbMATH05201720
   issue: '1'
@@ -902,6 +1118,13 @@
     given: Hans-Joachim
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Baues, Hans-Joachim and Muro, Fernando},\n    Title\
+    \ = {The homotopy category of pseudofunctors and translation cohomology},\n  \
+    \  FJournal = {Journal of Pure and Applied Algebra},\n    Journal = {J. Pure Appl.\
+    \ Algebra},\n    ISSN = {0022-4049},\n    Volume = {211},\n    Number = {3},\n\
+    \    Pages = {821--850},\n    Year = {2007},\n    Language = {English},\n    DOI\
+    \ = {10.1016/j.jpaa.2007.04.008},\n    Keywords = {18D05,18G60,55S35},\n     \
+    \   }"
   container-title: J. Pure Appl. Algebra
   id: zbMATH05186664
   issue: '3'
@@ -921,6 +1144,9 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Misc{    Author = {Muro, Fernando},\n    Title = {A triangulated category\
+    \ without models},\n    Year = {2007},\n    HowPublished = {Preprint, {    Keywords\
+    \ = {18E30,55P42,16E40},\n        }"
   id: zbMATH900080869
   issued:
     date-parts:
@@ -942,6 +1168,13 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Muro, Fernando},\n    Title = {On the functoriality\
+    \ of cohomology of categories},\n    FJournal = {Journal of Pure and Applied Algebra},\n\
+    \    Journal = {J. Pure Appl. Algebra},\n    ISSN = {0022-4049},\n    Volume =\
+    \ {204},\n    Number = {3},\n    Pages = {455--472},\n    Year = {2006},\n   \
+    \ Language = {English},\n    DOI = {10.1016/j.jpaa.2005.05.004},\n    Keywords\
+    \ = {18G60,18D05,18E35},\n    URL = {idus.us.es/xmlui/handle/11441/41897},\n \
+    \       }"
   container-title: J. Pure Appl. Algebra
   id: zbMATH02244508
   issue: '3'
@@ -964,6 +1197,10 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Misc{    Author = {Muro, Fernando},\n    Title = {On the proper homotopy\
+    \ type of locally compact {A}^2_n-polyhedra},\n    Year = {2006},\n    HowPublished\
+    \ = {Preprint, {    Keywords = {55P15,55P57,55S05,55S35,18G60,18G35,18G15,18G50},\n\
+    \        }"
   id: zbMATH900028837
   issued:
     date-parts:
@@ -984,6 +1221,13 @@
     given: F.
   - family: Quintero
     given: A.
+  bibtex: "@Article{    Author = {C{\\'a}rdenas, M. and Lasheras, F. F. and Muro,\
+    \ F. and Quintero, A.},\n    Title = {Proper {L}--{S} category, fundamental pro-groups\
+    \ and 2-dimensional proper co-{H}-spaces},\n    FJournal = {Topology and its Applications},\n\
+    \    Journal = {Topology Appl.},\n    ISSN = {0166-8641},\n    Volume = {153},\n\
+    \    Number = {4},\n    Pages = {580--604},\n    Year = {2005},\n    Language\
+    \ = {English},\n    DOI = {10.1016/j.topol.2005.01.032},\n    Keywords = {55M30,55P57,55P45},\n\
+    \        }"
   container-title: Topology Appl.
   id: zbMATH05012978
   issue: '4'
@@ -1006,6 +1250,12 @@
     given: F.
   - family: Quintero
     given: A.
+  bibtex: "@Article{    Author = {C{\\'a}rdenas, M. and Muro, F. and Quintero, A.},\n\
+    \    Title = {The proper {L}-{S} category of {Whitehead} manifolds},\n    FJournal\
+    \ = {Topology and its Applications},\n    Journal = {Topology Appl.},\n    ISSN\
+    \ = {0166-8641},\n    Volume = {153},\n    Number = {4},\n    Pages = {557--579},\n\
+    \    Year = {2005},\n    Language = {English},\n    DOI = {10.1016/j.topol.2005.01.031},\n\
+    \    Keywords = {55M30,55P57,57N65},\n        }"
   container-title: Topology Appl.
   id: zbMATH05012977
   issue: '4'
@@ -1023,6 +1273,13 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Muro, Fernando},\n    Title = {Suspensions of crossed\
+    \ and quadratic complexes, co-{H}-structures and applications},\n    FJournal\
+    \ = {Transactions of the American Mathematical Society},\n    Journal = {Trans.\
+    \ Am. Math. Soc.},\n    ISSN = {0002-9947},\n    Volume = {357},\n    Number =\
+    \ {9},\n    Pages = {3623--3653},\n    Year = {2005},\n    Language = {English},\n\
+    \    DOI = {10.1090/S0002-9947-04-03597-4},\n    Keywords = {55P40,55P45,55P65,55U15,20F14,20F18,20J05},\n\
+    \        }"
   container-title: Trans. Am. Math. Soc.
   id: zbMATH02172214
   issue: '9'
@@ -1058,6 +1315,9 @@
     given: H. -J.
   - family: Muro
     given: F.
+  bibtex: "@Misc{    Author = {Baues, H. -J. and Muro, F.},\n    Title = {The characteristic\
+    \ cohomology class of a triangulated category},\n    Year = {2005},\n    HowPublished\
+    \ = {Preprint, {    Keywords = {18E30,18G60,18D05,55S35},\n        }"
   id: zbMATH900079638
   issued:
     date-parts:
@@ -1080,6 +1340,13 @@
   author:
   - family: Muro
     given: Fernando
+  bibtex: "@Article{    Author = {Muro, Fernando},\n    Title = {Representation theory\
+    \ of some infinite dimensional algebras arising in continuously controlled algebra\
+    \ and topology.},\n    FJournal = {\\(K\\)-Theory},\n    Journal = {\\(K\\)-Theory},\n\
+    \    ISSN = {0920-3036},\n    Volume = {33},\n    Number = {1},\n    Pages = {23--65},\n\
+    \    Year = {2004},\n    Language = {English},\n    DOI = {10.1007/s10977-004-1837-4},\n\
+    \    Keywords = {16G60,16S50,19J25,57N99},\n    URL = {idus.us.es/xmlui/handle/11441/41899},\n\
+    \        }"
   container-title: $K$-Theory
   id: zbMATH05068816
   issue: '1'
@@ -1104,6 +1371,13 @@
     given: F.
   - family: Quintero
     given: A.
+  bibtex: "@Article{    Author = {Ayala, R. and C{\\'a}rdenas, M. and Muro, F. and\
+    \ Quintero, A.},\n    Title = {An elementary approach to the projective dimension\
+    \ in proper homotopy theory},\n    FJournal = {Communications in Algebra},\n \
+    \   Journal = {Commun. Algebra},\n    ISSN = {0092-7872},\n    Volume = {31},\n\
+    \    Number = {12},\n    Pages = {5995--6017},\n    Year = {2003},\n    Language\
+    \ = {English},\n    DOI = {10.1081/AGB-120024863},\n    Keywords = {18G20,55P57,18G10,55P99},\n\
+    \        }"
   container-title: Commun. Algebra
   id: zbMATH02010229
   issue: '12'

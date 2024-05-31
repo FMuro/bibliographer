@@ -6,7 +6,6 @@ import feedparser
 import json
 import re
 import yaml
-import sys
 
 zbmath_author_IDs = "{'IDs':['muro.fernando', 'gonzalez-meneses.juan', 'flores.ramon-j', 'silvero.marithania', 'carmona-sanchez.v', 'cumplido.maria', 'manchon.pedro-m-g']}"
 zbmath_bibtex_baseurl = 'https://zbmath.org/bibtexoutput/?q=ia%3A'
@@ -70,23 +69,29 @@ def get_extra_arxiv_data(orcid):
     extra_arxiv_data_dict = {}
     for entry in source["entries"]:
         entry_data = {}
-        entry_data["abstract"] = entry["summary_detail"]["value"]
+        entry_data["abstract"] = str(entry["summary_detail"]["value"])
         extra_arxiv_data_dict[re.sub('v[0-9]+', '', entry["id"].replace("http://arxiv.org/abs/",""))] = entry_data
     return extra_arxiv_data_dict
 
 # take bibtex from zbmath, turn it into dict, add keys { 'arxiv', 'zbmath_url', 'zbl', 'abstract' }, the two last ones when arxiv is available
 def merged_data_dict(zbmath_author_ID, orcid):
-    data = json.loads(bibtex_to_csljson(get_bibtex_from_zbmath(zbmath_author_ID)))
+    bibtex = get_bibtex_from_zbmath(zbmath_author_ID)
+    bibtex_split = bibtex.split('\n\n')
+    data = json.loads(bibtex_to_csljson(bibtex))
     extra_zbmath_data = get_extra_zbmath_data(zbmath_author_ID)
     extra_arxiv_data = get_extra_arxiv_data(orcid)
-    for entry in data:
+    for idx, entry in enumerate(data):
         entry_extra_zbmath_data = extra_zbmath_data[int(entry["id"].strip('zbMATH'))]
+        entry["bibtex"] = re.sub('arXiv.*\n', '', re.sub('zbMATH.*\n', '', re.sub('Zbl.*\n', '', bibtex_split[idx])))
         entry.update(entry_extra_zbmath_data)
         if "arxiv" in entry_extra_zbmath_data.keys():
             entry.update(extra_arxiv_data[entry_extra_zbmath_data["arxiv"]])
     return data
 
-with open('data.yml', 'w') as outfile:
-    yaml.dump(merged_data_dict('muro.fernando','0000-0001-8457-9889'), outfile, default_flow_style=False)
+data = merged_data_dict('muro.fernando','0000-0001-8457-9889')
+with open('output.yml', 'w') as outfile:
+    yaml.dump(data, outfile, default_flow_style=False)
+with open("output.json", "w") as outfile: 
+    json.dump(data, outfile)
 
 # print(get_json_from_zbmath('muro.fernando'))
