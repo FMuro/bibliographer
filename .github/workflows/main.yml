@@ -35,3 +35,5 @@ jobs:
       - name: convert bibtex to json and add some extras
         run:
           python bibliographer-github-2.py 
+      - name: get output in the repo
+        uses: stefanzweifel/git-auto-commit-action@v4
