@@ -4,7 +4,6 @@ import subprocess
 import feedparser
 import json
 import re
-import yaml
 
 zbmath_bibtex_baseurl = 'https://zbmath.org/bibtexoutput/?q=ia%3A'
 zbmath_entry_bibtex_baseurl = 'https://zbmath.org/bibtex/'
