@@ -22,7 +22,7 @@ jobs:
         run:
           python bibliographer-github.py
       - name: convert bibtex to CSL JSON
-        uses: docker://pandoc/core:2.9
+        uses: docker://pandoc/core:3.2
         with:
           args: >-  # allows you to break string into multiple lines
             -f
