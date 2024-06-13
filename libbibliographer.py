@@ -6,7 +6,6 @@ import json
 import re
 import yaml
 
-zbmath_author_IDs = "{'IDs':['muro.fernando', 'gonzalez-meneses.juan', 'flores.ramon-j', 'silvero.marithania', 'carmona-sanchez.v', 'cumplido.maria', 'manchon.pedro-m-g']}"
 zbmath_bibtex_baseurl = 'https://zbmath.org/bibtexoutput/?q=ia%3A'
 zbmath_entry_bibtex_baseurl = 'https://zbmath.org/bibtex/'
 zbmath_api_baseurl = 'https://api.zbmath.org/v1/document/_structured_search?author%20code='
