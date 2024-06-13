@@ -1,0 +1,1290 @@
+[
+  {
+    "DOI": "10.1017/prm.2022.42",
+    "ISSN": "0308-2105",
+    "author": [
+      {
+        "family": "Maes",
+        "given": "Jeroen"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Proc. R. Soc. Edinb., Sect. A, Math.",
+    "id": "zbMATH07719245",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "keyword": "18M70,14A30,16E05,18G10,55U35",
+    "page": "1198-1243",
+    "title": "Derived homotopy algebras",
+    "type": "article-journal",
+    "volume": "153"
+  },
+  {
+    "DOI": "10.1080/00927872.2023.2181780",
+    "ISSN": "0092-7872",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Commun. Algebra",
+    "id": "zbMATH07700052",
+    "issue": "8",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "keyword": "18M70,55S20,13D03,16E40,17B56,55P48",
+    "page": "3298-3313",
+    "title": "Massey products for algebras over operads",
+    "type": "article-journal",
+    "volume": "51"
+  },
+  {
+    "DOI": "10.4310/HHA.2023.v25.n1.a10",
+    "ISSN": "1532-0073",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Homology Homotopy Appl.",
+    "id": "zbMATH07681901",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "keyword": "18M70,13D03,16E40,17B56,55S20",
+    "page": "189-218",
+    "title": "Derived universal Massey products",
+    "type": "article-journal",
+    "volume": "25"
+  },
+  {
+    "author": [
+      {
+        "family": "Guan",
+        "given": "Ai"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "id": "zbMATH902382702",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "publisher": "Preprint, arXiv:2312.07321 [math.DG] (2023)",
+    "title": "Operations on the de Rham cohomology of Poisson and Jacobi manifolds",
+    "type": ""
+  },
+  {
+    "author": [
+      {
+        "family": "Jasso",
+        "given": "Gustavo"
+      },
+      {
+        "family": "Keller",
+        "given": "Bernhard"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "id": "zbMATH900577785",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "keyword": "14E30,13D03",
+    "publisher": "Preprint, arXiv:2301.11593 [math.AG] (2023)",
+    "title": "The Donovan–Wemyss Conjecture via the Derived Auslander–Iyama Correspondence",
+    "type": ""
+  },
+  {
+    "DOI": "10.1017/S1474748020000250",
+    "ISSN": "1474-7480",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "J. Inst. Math. Jussieu",
+    "id": "zbMATH07506910",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "16E40,18G40,55S35",
+    "page": "741-783",
+    "title": "Enhanced finite triangulated categories",
+    "type": "article-journal",
+    "volume": "21"
+  },
+  {
+    "author": [
+      {
+        "family": "Jasso",
+        "given": "Gustavo"
+      },
+      {
+        "family": "Keller",
+        "given": "Bernhard"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "id": "zbMATH900570519",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "18G80,18N40",
+    "publisher": "Preprint, arXiv:2208.14413 [math.RT] (2022)",
+    "title": "The Derived Auslander-Iyama Correspondence",
+    "type": ""
+  },
+  {
+    "author": [
+      {
+        "family": "Carmona",
+        "given": "Victor"
+      },
+      {
+        "family": "Flores",
+        "given": "Ramon"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "id": "zbMATH900514688",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "publisher": "Preprint, arXiv:2107.14174 [math.AT] (2021)",
+    "title": "A model structure for locally constant factorization algebras",
+    "type": ""
+  },
+  {
+    "DOI": "10.1007/s00209-019-02438-y",
+    "ISSN": "0025-5874",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Math. Z.",
+    "id": "zbMATH07242463",
+    "issue": "1-2",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "keyword": "18E30,16E40,18G50,18G60,18E30,16G70",
+    "page": "719-759",
+    "title": "The first obstructions to enhancing a triangulated category",
+    "type": "article-journal",
+    "volume": "296"
+  },
+  {
+    "DOI": "10.1007/s40062-019-00245-0",
+    "ISSN": "2193-8407",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "J. Homotopy Relat. Struct.",
+    "id": "zbMATH07190145",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "keyword": "18G40,55S35,16E40",
+    "page": "61-112",
+    "title": "Enhanced $A_{\\infty}$-obstruction theory",
+    "type": "article-journal",
+    "volume": "15"
+  },
+  {
+    "DOI": "10.2140/agt.2019.19.457",
+    "ISSN": "1472-2747",
+    "author": [
+      {
+        "family": "Flores",
+        "given": "Ramón"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Algebr. Geom. Topol.",
+    "id": "zbMATH07053579",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "keyword": "20F99,55P60",
+    "page": "457-476",
+    "title": "Torsion homology and cellular approximation",
+    "type": "article-journal",
+    "volume": "19"
+  },
+  {
+    "DOI": "10.1016/j.jpaa.2018.08.007",
+    "ISSN": "0022-4049",
+    "URL": "kar.kent.ac.uk/67611/1/bi_and_twisted_complexes_revision.pdf",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      },
+      {
+        "family": "Roitzheim",
+        "given": "Constanze"
+      }
+    ],
+    "container-title": "J. Pure Appl. Algebra",
+    "id": "zbMATH07006249",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "keyword": "18G55,55U35",
+    "page": "1913-1939",
+    "title": "Homotopy theory of bicomplexes",
+    "type": "article-journal",
+    "volume": "223"
+  },
+  {
+    "DOI": "10.2140/agt.2017.17.3837",
+    "ISSN": "1472-2747",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Algebr. Geom. Topol.",
+    "id": "zbMATH06791664",
+    "issue": "6",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "keyword": "18M60,55U35,18M05,18C40,18D20",
+    "page": "3837-3852",
+    "title": "Correction to: “Homotopy theory of nonsymmetric operads. I–II”",
+    "title-short": "Correction to",
+    "type": "article-journal",
+    "volume": "17"
+  },
+  {
+    "DOI": "10.2140/akt.2017.2.303",
+    "ISSN": "2379-1683",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      },
+      {
+        "family": "Raptis",
+        "given": "Georgios"
+      }
+    ],
+    "container-title": "Ann. $K$-Theory",
+    "id": "zbMATH06673997",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "keyword": "19D99,55U35",
+    "page": "303-340",
+    "title": "$K$-theory of derivators revisited",
+    "type": "article-journal",
+    "volume": "2"
+  },
+  {
+    "DOI": "10.1016/j.jpaa.2016.02.013",
+    "ISSN": "0022-4049",
+    "URL": "idus.us.es/xmlui/handle/11441/43063",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "J. Pure Appl. Algebra",
+    "id": "zbMATH06571599",
+    "issue": "9",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "keyword": "18D50,18G55,03E10",
+    "page": "3248-3281",
+    "title": "Cylinders for non-symmetric DG-operads via homological perturbation theory",
+    "type": "article-journal",
+    "volume": "220"
+  },
+  {
+    "DOI": "10.1090/tran/6545",
+    "ISSN": "0002-9947",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Trans. Am. Math. Soc.",
+    "id": "zbMATH06550647",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "keyword": "18D50,55P48,18G55",
+    "page": "2145-2184",
+    "title": "Homotopy units in $A$-infinity algebras",
+    "type": "article-journal",
+    "volume": "368"
+  },
+  {
+    "DOI": "10.1016/j.aim.2016.01.009",
+    "ISSN": "0001-8708",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      },
+      {
+        "family": "Raventós",
+        "given": "Oriol"
+      }
+    ],
+    "container-title": "Adv. Math.",
+    "id": "zbMATH06548165",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "keyword": "18E30,55S35,55S45,18G20",
+    "page": "111-180",
+    "title": "Transfinite Adams representability",
+    "type": "article-journal",
+    "volume": "292"
+  },
+  {
+    "DOI": "10.1016/j.topol.2015.05.006",
+    "ISSN": "0166-8641",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Topology Appl.",
+    "id": "zbMATH06454207",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "keyword": "55P42,55U35",
+    "page": "37-47",
+    "title": "On the unit of a monoidal model category",
+    "type": "article-journal",
+    "volume": "191"
+  },
+  {
+    "DOI": "10.1112/jtopol/jtu029",
+    "ISSN": "1753-8416",
+    "URL": "idus.us.es/xmlui/handle/11441/43027",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "J. Topol.",
+    "id": "zbMATH06451815",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "keyword": "18D20,18G55,55U35",
+    "page": "377-413",
+    "title": "Dwyer-Kan homotopy theory of enriched categories",
+    "type": "article-journal",
+    "volume": "8"
+  },
+  {
+    "DOI": "10.5565/PUBLMAT_59115_07",
+    "ISSN": "0214-1493",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      },
+      {
+        "family": "Tonks",
+        "given": "Andrew"
+      },
+      {
+        "family": "Witte",
+        "given": "Malte"
+      }
+    ],
+    "container-title": "Publ. Mat., Barc.",
+    "id": "zbMATH06417698",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "keyword": "19A99,18E10,18E30,18G55,19B99",
+    "page": "137-233",
+    "title": "On determinant functors and $K$-theory",
+    "type": "article-journal",
+    "volume": "59"
+  },
+  {
+    "DOI": "10.1007/s40062-019-00245-0",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "id": "zbMATH900556798",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "keyword": "18G40,18D50,55S35",
+    "publisher": "Preprint, arXiv:1510.00312 [math.AT] (2015)",
+    "title": "Enhanced ${A}$-infinity obstruction theory",
+    "type": ""
+  },
+  {
+    "DOI": "10.1515/forum-2011-0130",
+    "ISSN": "0933-7741",
+    "URL": "idus.us.es/handle/11441/41889",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      },
+      {
+        "family": "Tonks",
+        "given": "Andrew"
+      }
+    ],
+    "container-title": "Forum Math.",
+    "id": "zbMATH06342603",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "keyword": "18D50,18G55",
+    "page": "593-620",
+    "title": "Unital associahedra",
+    "type": "article-journal",
+    "volume": "26"
+  },
+  {
+    "DOI": "10.2140/agt.2014.14.1489",
+    "ISSN": "1472-2747",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Algebr. Geom. Topol.",
+    "id": "zbMATH06281920",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "keyword": "18D50,14K10,55U35",
+    "page": "1489-1539",
+    "title": "Moduli spaces of algebras over nonsymmetric operads",
+    "type": "article-journal",
+    "volume": "14"
+  },
+  {
+    "DOI": "10.2140/agt.2014.14.229",
+    "ISSN": "1472-2747",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Algebr. Geom. Topol.",
+    "id": "zbMATH06243329",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "keyword": "18D50,18D10,18G55,55U35",
+    "page": "229-281",
+    "title": "Homotopy theory of non-symmetric operads. II: Change of base category and left properness",
+    "title-short": "Homotopy theory of non-symmetric operads. II",
+    "type": "article-journal",
+    "volume": "14"
+  },
+  {
+    "DOI": "10.1016/j.aim.2011.04.005",
+    "ISSN": "0001-8708",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      },
+      {
+        "family": "Raptis",
+        "given": "George"
+      }
+    ],
+    "container-title": "Adv. Math.",
+    "id": "zbMATH05918250",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "keyword": "19D99,18E30,16E45",
+    "page": "1827-1845",
+    "title": "A note on $K$-theory and triangulated derivators",
+    "type": "article-journal",
+    "volume": "227"
+  },
+  {
+    "DOI": "10.2140/agt.2011.11.1541",
+    "ISSN": "1472-2747",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Algebr. Geom. Topol.",
+    "id": "zbMATH05904608",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "keyword": "18D50,18G55,18D10,55U35",
+    "page": "1541-1599",
+    "title": "Homotopy theory of nonsymmetric operads",
+    "type": "article-journal",
+    "volume": "11"
+  },
+  {
+    "DOI": "10.1112/plms/pdq034",
+    "ISSN": "0024-6115",
+    "URL": "idus.us.es/xmlui/handle/11441/41904",
+    "author": [
+      {
+        "family": "Baues",
+        "given": "Hans-Joachim"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Proc. Lond. Math. Soc. (3)",
+    "id": "zbMATH05882112",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "keyword": "55P42,55P43,55Q35,55S20,55S30",
+    "page": "637-696",
+    "title": "The algebra of secondary homotopy operations in ring spectra",
+    "type": "article-journal",
+    "volume": "102"
+  },
+  {
+    "DOI": "10.1080/00927870802241188",
+    "ISSN": "0092-7872",
+    "URL": "idus.us.es/xmlui/handle/11441/41881",
+    "author": [
+      {
+        "family": "Baues",
+        "given": "Hans-Joachim"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Commun. Algebra",
+    "id": "zbMATH05538788",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "keyword": "18G50,55P42,55Q35",
+    "page": "56-82",
+    "title": "Toda brackets and cup-one squares for ring spectra",
+    "type": "article-journal",
+    "volume": "37"
+  },
+  {
+    "DOI": "10.1017/is008007021jkt061",
+    "ISSN": "1865-2433",
+    "author": [
+      {
+        "family": "Baues",
+        "given": "H.-J."
+      },
+      {
+        "family": "Muro",
+        "given": "F."
+      }
+    ],
+    "container-title": "J. $K$-Theory",
+    "id": "zbMATH05528664",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "keyword": "18E30,18G60",
+    "page": "1-52",
+    "title": "Cohomologically triangulated categories. II",
+    "type": "article-journal",
+    "volume": "3"
+  },
+  {
+    "ISSN": "1370-1444",
+    "author": [
+      {
+        "family": "Baues",
+        "given": "Hans-Joachim"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Bull. Belg. Math. Soc. - Simon Stevin",
+    "id": "zbMATH05496973",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "keyword": "55Q05,55Q25,55S45",
+    "page": "733-768",
+    "title": "The symmetric action on secondary homotopy groups",
+    "type": "article-journal",
+    "volume": "15"
+  },
+  {
+    "ISBN": "978-3-03719-060-9",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      },
+      {
+        "family": "Tonks",
+        "given": "Andrew"
+      }
+    ],
+    "container-title": "$K$-theory and noncommutative geometry. Proceedings of the ICM 2006 satellite conference, valladolid, spain, august 31–september 6, 2006",
+    "id": "zbMATH05381934",
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "keyword": "18F25,19D10",
+    "page": "91-115",
+    "publisher": "Zürich: European Mathematical Society (EMS)",
+    "title": "On $K_1$ of a Waldhausen category",
+    "type": "chapter"
+  },
+  {
+    "DOI": "10.1007/s10485-007-9071-x",
+    "ISSN": "0927-2852",
+    "author": [
+      {
+        "family": "Baues",
+        "given": "Hans-Joachim"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Appl. Categ. Struct.",
+    "id": "zbMATH05367270",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "keyword": "55Q35,55Q15,55S45",
+    "page": "551-616",
+    "title": "Smash products for secondary homotopy groups",
+    "type": "article-journal",
+    "volume": "16"
+  },
+  {
+    "DOI": "10.1515/FORUM.2008.032",
+    "ISSN": "0933-7741",
+    "author": [
+      {
+        "family": "Baues",
+        "given": "Hans-Joachim"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Forum Math.",
+    "id": "zbMATH05351182",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "keyword": "18D05,55Q25,55S45",
+    "page": "631-677",
+    "title": "Secondary homotopy groups",
+    "type": "article-journal",
+    "volume": "20"
+  },
+  {
+    "DOI": "10.1017/is007011018jkt019",
+    "ISSN": "1865-2433",
+    "author": [
+      {
+        "family": "Baues",
+        "given": "H.-J."
+      },
+      {
+        "family": "Muro",
+        "given": "F."
+      }
+    ],
+    "container-title": "J. $K$-Theory",
+    "id": "zbMATH05347000",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "keyword": "18E30,18D05",
+    "page": "3-48",
+    "title": "Cohomologically triangulated categories. I",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "DOI": "10.1093/imrn/rnm153",
+    "ISSN": "1073-7928",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Int. Math. Res. Not.",
+    "id": "zbMATH05306025",
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "keyword": "19D99,18E10,18E30,19B99,55P42",
+    "note": "Id/No rnm153",
+    "page": "31",
+    "title": "Maltsiniotis’s first conjecture for $K_{1}$",
+    "type": "article-journal",
+    "volume": "2008"
+  },
+  {
+    "DOI": "10.1007/s00222-007-0061-2",
+    "ISSN": "0020-9910",
+    "URL": "idus.us.es/xmlui/handle/11441/41893",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      },
+      {
+        "family": "Schwede",
+        "given": "Stefan"
+      },
+      {
+        "family": "Strickland",
+        "given": "Neil"
+      }
+    ],
+    "container-title": "Invent. Math.",
+    "id": "zbMATH05208165",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "keyword": "18E30,55P42,16E45,13D25",
+    "page": "231-241",
+    "title": "Triangulated categories without models",
+    "type": "article-journal",
+    "volume": "170"
+  },
+  {
+    "DOI": "10.1016/j.aim.2007.05.008",
+    "ISSN": "0001-8708",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      },
+      {
+        "family": "Tonks",
+        "given": "Andrew"
+      }
+    ],
+    "container-title": "Adv. Math.",
+    "id": "zbMATH05201720",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "keyword": "19B99,16E20,18G50,18G55",
+    "page": "178-211",
+    "title": "The 1-type of a Waldhausen $K$-theory spectrum",
+    "type": "article-journal",
+    "volume": "216"
+  },
+  {
+    "DOI": "10.1016/j.jpaa.2007.04.008",
+    "ISSN": "0022-4049",
+    "author": [
+      {
+        "family": "Baues",
+        "given": "Hans-Joachim"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "J. Pure Appl. Algebra",
+    "id": "zbMATH05186664",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "keyword": "18D05,18G60,55S35",
+    "page": "821-850",
+    "title": "The homotopy category of pseudofunctors and translation cohomology",
+    "type": "article-journal",
+    "volume": "211"
+  },
+  {
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "id": "zbMATH900080869",
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "keyword": "18E30,55P42,16E40",
+    "publisher": "Preprint, arXiv:math/0703311 [math.KT] (2007)",
+    "title": "A triangulated category without models",
+    "type": ""
+  },
+  {
+    "DOI": "10.1016/j.jpaa.2005.05.004",
+    "ISSN": "0022-4049",
+    "URL": "idus.us.es/xmlui/handle/11441/41897",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "J. Pure Appl. Algebra",
+    "id": "zbMATH02244508",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "keyword": "18G60,18D05,18E35",
+    "page": "455-472",
+    "title": "On the functoriality of cohomology of categories",
+    "type": "article-journal",
+    "volume": "204"
+  },
+  {
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "id": "zbMATH900028837",
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "keyword": "55P15,55P57,55S05,55S35,18G60,18G35,18G15,18G50",
+    "publisher": "Preprint, arXiv:math/0605213 [math.AT] (2006)",
+    "title": "On the proper homotopy type of locally compact A^2_n-polyhedra",
+    "type": ""
+  },
+  {
+    "DOI": "10.1016/j.topol.2005.01.032",
+    "ISSN": "0166-8641",
+    "author": [
+      {
+        "family": "Cárdenas",
+        "given": "M."
+      },
+      {
+        "family": "Lasheras",
+        "given": "F. F."
+      },
+      {
+        "family": "Muro",
+        "given": "F."
+      },
+      {
+        "family": "Quintero",
+        "given": "A."
+      }
+    ],
+    "container-title": "Topology Appl.",
+    "id": "zbMATH05012978",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "keyword": "55M30,55P57,55P45",
+    "page": "580-604",
+    "title": "Proper L–S category, fundamental pro-groups and 2-dimensional proper co-H-spaces",
+    "type": "article-journal",
+    "volume": "153"
+  },
+  {
+    "DOI": "10.1016/j.topol.2005.01.031",
+    "ISSN": "0166-8641",
+    "author": [
+      {
+        "family": "Cárdenas",
+        "given": "M."
+      },
+      {
+        "family": "Muro",
+        "given": "F."
+      },
+      {
+        "family": "Quintero",
+        "given": "A."
+      }
+    ],
+    "container-title": "Topology Appl.",
+    "id": "zbMATH05012977",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "keyword": "55M30,55P57,57N65",
+    "page": "557-579",
+    "title": "The proper L-S category of Whitehead manifolds",
+    "type": "article-journal",
+    "volume": "153"
+  },
+  {
+    "DOI": "10.1090/S0002-9947-04-03597-4",
+    "ISSN": "0002-9947",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Trans. Am. Math. Soc.",
+    "id": "zbMATH02172214",
+    "issue": "9",
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "keyword": "55P40,55P45,55P65,55U15,20F14,20F18,20J05",
+    "page": "3623-3653",
+    "title": "Suspensions of crossed and quadratic complexes, co-H-structures and applications",
+    "type": "article-journal",
+    "volume": "357"
+  },
+  {
+    "author": [
+      {
+        "family": "Baues",
+        "given": "H. -J."
+      },
+      {
+        "family": "Muro",
+        "given": "F."
+      }
+    ],
+    "id": "zbMATH900079638",
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "keyword": "18E30,18G60,18D05,55S35",
+    "publisher": "Preprint, arXiv:math/0505540 [math.KT] (2005)",
+    "title": "The characteristic cohomology class of a triangulated category",
+    "type": ""
+  },
+  {
+    "DOI": "10.1007/s10977-004-1837-4",
+    "ISSN": "0920-3036",
+    "URL": "idus.us.es/xmlui/handle/11441/41899",
+    "author": [
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "$K$-Theory",
+    "id": "zbMATH05068816",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "keyword": "16G60,16S50,19J25,57N99",
+    "page": "23-65",
+    "title": "Representation theory of some infinite dimensional algebras arising in continuously controlled algebra and topology.",
+    "type": "article-journal",
+    "volume": "33"
+  },
+  {
+    "DOI": "10.1081/AGB-120024863",
+    "ISSN": "0092-7872",
+    "author": [
+      {
+        "family": "Ayala",
+        "given": "R."
+      },
+      {
+        "family": "Cárdenas",
+        "given": "M."
+      },
+      {
+        "family": "Muro",
+        "given": "F."
+      },
+      {
+        "family": "Quintero",
+        "given": "A."
+      }
+    ],
+    "container-title": "Commun. Algebra",
+    "id": "zbMATH02010229",
+    "issue": "12",
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "keyword": "18G20,55P57,18G10,55P99",
+    "page": "5995-6017",
+    "title": "An elementary approach to the projective dimension in proper homotopy theory",
+    "type": "article-journal",
+    "volume": "31"
+  }
+]
