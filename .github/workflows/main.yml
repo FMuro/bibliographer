@@ -1,4 +1,4 @@
-name: run bibliographer.py
+name: run bibliographer-github.py
 
 on: 
   workflow_dispatch:
