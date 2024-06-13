@@ -32,6 +32,6 @@ jobs:
             csljson
             -o
             middle.json
-      - name: test
+      - name: convert bibtex to json and add some extras
         run:
-          cat middle.json
+          python bibliographer-github-2.py 
