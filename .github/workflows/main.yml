@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       - name: checkout repo content
@@ -15,9 +15,21 @@ jobs:
         with:
           python-version: '3.12' #install the python version needed    
       - name: Install dependencies
-        run: |
+        run:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      - name: execute py script # run script
-        run: |
+      - name: get bibtex
+        run:
           python bibliographer-github.py
+      - name: convert bibtex to CSL JSON
+        uses: docker://pandoc/core:2.9
+        with:
+          args: >-  # allows you to break string into multiple lines
+            -f
+            bibtex
+            output.bib
+            -t
+            csljson
+            -o
+            middle.json
+        
