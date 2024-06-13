@@ -78,7 +78,9 @@ def merged_data_dict(zbmath_author_ID, orcid):
 def merged_data_dict_github(zbmath_author_ID, bibfile, orcid):
     bibtex = get_bibtex_from_zbmath(zbmath_author_ID)
     bibtex_split = bibtex.split('\n\n')
-    data = json.loads(bibfile.read())
+    f = open(bibfile,'r')
+    data = json.loads(f.read())
+    f.close()
     extra_zbmath_data = get_extra_zbmath_data(zbmath_author_ID)
     extra_arxiv_data = get_extra_arxiv_data(orcid)
     for idx, entry in enumerate(data):
