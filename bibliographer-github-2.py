@@ -1,4 +1,6 @@
 from libbibliographer import merged_data_dict_github
+import yaml
+import json
 
 data = merged_data_dict_github('muro.fernando','middle.json','0000-0001-8457-9889')
 with open('output.yml', 'w') as outfile:
