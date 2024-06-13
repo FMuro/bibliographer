@@ -73,3 +73,19 @@ def merged_data_dict(zbmath_author_ID, orcid):
         if "arxiv" in entry_extra_zbmath_data.keys():
             entry.update(extra_arxiv_data[entry_extra_zbmath_data["arxiv"]])
     return data
+    
+# take bibtex from zbmath, turn it into dict, add extra data from zbmath and arxiv and also { 'bibtex' : bibtex_entry }
+def merged_data_dict_github(zbmath_author_ID, bibfile, orcid):
+    bibtex = get_bibtex_from_zbmath(zbmath_author_ID)
+    bibtex_split = bibtex.split('\n\n')
+    data = json.loads(bibfile)
+    extra_zbmath_data = get_extra_zbmath_data(zbmath_author_ID)
+    extra_arxiv_data = get_extra_arxiv_data(orcid)
+    for idx, entry in enumerate(data):
+        entry_extra_zbmath_data = extra_zbmath_data[int(entry["id"].strip('zbMATH'))]
+        # bibtex after stripping down non-standard entriesfil
+        entry["bibtex"] = re.sub('arXiv =.*\n', '', re.sub('zbMATH =.*\n', '', re.sub('Zbl =.*\n', '', bibtex_split[idx])))
+        entry.update(entry_extra_zbmath_data)
+        if "arxiv" in entry_extra_zbmath_data.keys():
+            entry.update(extra_arxiv_data[entry_extra_zbmath_data["arxiv"]])
+    return data

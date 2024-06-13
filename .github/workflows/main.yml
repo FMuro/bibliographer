@@ -32,4 +32,6 @@ jobs:
             csljson
             -o
             middle.json
-        
+      - name: convert bibtex to json and add some extras
+        run:
+          python bibliographer-github-2.py 
