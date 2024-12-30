@@ -1,5 +1,37 @@
 [
   {
+    "DOI": "10.1007/978-3-031-57789-5_4",
+    "ISBN": "978-3-031-57788-8; 978-3-031-57791-8; 978-3-031-57789-5",
+    "author": [
+      {
+        "family": "Jasso",
+        "given": "Gustavo"
+      },
+      {
+        "family": "Keller",
+        "given": "Bernhard"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Triangulated categories in representation theory and beyond. The abel symposium 2022, ålesund, norway, june 6–10, 2022",
+    "id": "zbMATH07950525",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "keyword": "16Gxx,18G80,14E30,13D03",
+    "page": "105-140",
+    "publisher": "Cham: Springer",
+    "title": "The Donovan-Wemyss conjecture via the derived Auslander-Iyama correspondence",
+    "type": "chapter"
+  },
+  {
     "DOI": "10.1017/prm.2022.42",
     "ISSN": "0308-2105",
     "author": [
@@ -79,6 +111,7 @@
     "volume": "25"
   },
   {
+    "URL": "https://arxiv.org/abs/2312.07321",
     "author": [
       {
         "family": "Guan",
@@ -89,7 +122,7 @@
         "given": "Fernando"
       }
     ],
-    "id": "zbMATH902382702",
+    "id": "arXiv:2312.07321",
     "issued": {
       "date-parts": [
         [
@@ -99,34 +132,6 @@
     },
     "publisher": "Preprint, arXiv:2312.07321 [math.DG] (2023)",
     "title": "Operations on the de Rham cohomology of Poisson and Jacobi manifolds",
-    "type": ""
-  },
-  {
-    "author": [
-      {
-        "family": "Jasso",
-        "given": "Gustavo"
-      },
-      {
-        "family": "Keller",
-        "given": "Bernhard"
-      },
-      {
-        "family": "Muro",
-        "given": "Fernando"
-      }
-    ],
-    "id": "zbMATH900577785",
-    "issued": {
-      "date-parts": [
-        [
-          2023
-        ]
-      ]
-    },
-    "keyword": "14E30,13D03",
-    "publisher": "Preprint, arXiv:2301.11593 [math.AG] (2023)",
-    "title": "The Donovan–Wemyss Conjecture via the Derived Auslander–Iyama Correspondence",
     "type": ""
   },
   {
@@ -155,6 +160,7 @@
     "volume": "21"
   },
   {
+    "URL": "https://arxiv.org/abs/2208.14413",
     "author": [
       {
         "family": "Jasso",
@@ -169,7 +175,7 @@
         "given": "Fernando"
       }
     ],
-    "id": "zbMATH900570519",
+    "id": "arXiv:2208.14413",
     "issued": {
       "date-parts": [
         [
@@ -183,6 +189,7 @@
     "type": ""
   },
   {
+    "URL": "https://arxiv.org/abs/2107.14174",
     "author": [
       {
         "family": "Carmona",
@@ -197,7 +204,7 @@
         "given": "Fernando"
       }
     ],
-    "id": "zbMATH900514688",
+    "id": "arXiv:2107.14174",
     "issued": {
       "date-parts": [
         [
@@ -537,13 +544,14 @@
   },
   {
     "DOI": "10.1007/s40062-019-00245-0",
+    "URL": "https://arxiv.org/abs/1510.00312",
     "author": [
       {
         "family": "Muro",
         "given": "Fernando"
       }
     ],
-    "id": "zbMATH900556798",
+    "id": "arXiv:1510.00312",
     "issued": {
       "date-parts": [
         [
@@ -1040,13 +1048,14 @@
     "volume": "211"
   },
   {
+    "URL": "https://arxiv.org/abs/math/0703311",
     "author": [
       {
         "family": "Muro",
         "given": "Fernando"
       }
     ],
-    "id": "zbMATH900080869",
+    "id": "arXiv:math/0703311",
     "issued": {
       "date-parts": [
         [
@@ -1086,13 +1095,14 @@
     "volume": "204"
   },
   {
+    "URL": "https://arxiv.org/abs/math/0605213",
     "author": [
       {
         "family": "Muro",
         "given": "Fernando"
       }
     ],
-    "id": "zbMATH900028837",
+    "id": "arXiv:math/0605213",
     "issued": {
       "date-parts": [
         [
@@ -1201,6 +1211,7 @@
     "volume": "357"
   },
   {
+    "URL": "https://arxiv.org/abs/math/0505540",
     "author": [
       {
         "family": "Baues",
@@ -1211,7 +1222,7 @@
         "given": "F."
       }
     ],
-    "id": "zbMATH900079638",
+    "id": "arXiv:math/0505540",
     "issued": {
       "date-parts": [
         [

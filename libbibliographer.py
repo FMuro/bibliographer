@@ -39,12 +39,16 @@ def get_extra_zbmath_data(zbmath_author_ID):
     source = json.loads(get_json_from_zbmath(zbmath_author_ID))
     extra_zbmath_data_dict = {}
     for entry in source["result"]:
+        if entry["database"] == "arXiv":
+            key = entry["identifier"]
+        else:
+            key = entry["id"]
         entry_data = {}
         entry_data["zbmath_url"] = entry["zbmath_url"]
         for link in entry["links"]:
             if link["type"] == "arxiv":
                 entry_data["arxiv"] = link["identifier"]
-        extra_zbmath_data_dict[entry["id"]] = entry_data
+        extra_zbmath_data_dict[key] = entry_data
     return extra_zbmath_data_dict
 
 # create dictionary with paper's arxiv_id : { 'abstract': abstract }
@@ -65,7 +69,11 @@ def merged_data_dict(zbmath_author_ID, orcid):
     extra_zbmath_data = get_extra_zbmath_data(zbmath_author_ID)
     extra_arxiv_data = get_extra_arxiv_data(orcid)
     for idx, entry in enumerate(data):
-        entry_extra_zbmath_data = extra_zbmath_data[int(entry["id"].strip('zbMATH'))]
+        if "zbMATH" in entry["id"]:
+            key = int(entry["id"].strip('zbMATH'))
+        else: 
+            key = entry["id"]
+        entry_extra_zbmath_data = extra_zbmath_data[key]
         # bibtex after stripping down non-standard entries
         entry["bibtex"] = re.sub('arXiv =.*\n', '', re.sub('zbMATH =.*\n', '', re.sub('Zbl =.*\n', '', bibtex_split[idx])))
         entry.update(entry_extra_zbmath_data)
@@ -83,7 +91,11 @@ def merged_data_dict_github(zbmath_author_ID, bibfile, orcid):
     extra_zbmath_data = get_extra_zbmath_data(zbmath_author_ID)
     extra_arxiv_data = get_extra_arxiv_data(orcid)
     for idx, entry in enumerate(data):
-        entry_extra_zbmath_data = extra_zbmath_data[int(entry["id"].strip('zbMATH'))]
+        if "zbMATH" in entry["id"]:
+            key = int(entry["id"].strip('zbMATH'))
+        else: 
+            key = entry["id"]
+        entry_extra_zbmath_data = extra_zbmath_data[key]
         # bibtex after stripping down non-standard entries
         entry["bibtex"] = re.sub('arXiv =.*\n', '', re.sub('zbMATH =.*\n', '', re.sub('Zbl =.*\n', '', bibtex_split[idx])))
         entry.update(entry_extra_zbmath_data)
