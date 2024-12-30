@@ -66,7 +66,7 @@ def merged_data_dict(zbmath_author_ID, orcid):
     extra_arxiv_data = get_extra_arxiv_data(orcid)
     for idx, entry in enumerate(data):
         entry_extra_zbmath_data = extra_zbmath_data[int(entry["id"].strip('zbMATH'))]
-        # bibtex after stripping down non-standard entriesfil
+        # bibtex after stripping down non-standard entries
         entry["bibtex"] = re.sub('arXiv =.*\n', '', re.sub('zbMATH =.*\n', '', re.sub('Zbl =.*\n', '', bibtex_split[idx])))
         entry.update(entry_extra_zbmath_data)
         if "arxiv" in entry_extra_zbmath_data.keys():
@@ -83,8 +83,8 @@ def merged_data_dict_github(zbmath_author_ID, bibfile, orcid):
     extra_zbmath_data = get_extra_zbmath_data(zbmath_author_ID)
     extra_arxiv_data = get_extra_arxiv_data(orcid)
     for idx, entry in enumerate(data):
-        entry_extra_zbmath_data = extra_zbmath_data[int(entry["id"].strip('zbMATH'))]
-        # bibtex after stripping down non-standard entriesfil
+        entry_extra_zbmath_data = extra_zbmath_data[entry["id"]]
+        # bibtex after stripping down non-standard entries
         entry["bibtex"] = re.sub('arXiv =.*\n', '', re.sub('zbMATH =.*\n', '', re.sub('Zbl =.*\n', '', bibtex_split[idx])))
         entry.update(entry_extra_zbmath_data)
         if "arxiv" in entry_extra_zbmath_data.keys():
