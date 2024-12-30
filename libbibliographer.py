@@ -7,7 +7,7 @@ import re
 
 zbmath_bibtex_baseurl = 'https://zbmath.org/bibtexoutput/?q=ia%3A'
 zbmath_entry_bibtex_baseurl = 'https://zbmath.org/bibtex/'
-zbmath_api_baseurl = 'https://api.zbmath.org/v1/document/_structured_search?author%20count='
+zbmath_api_baseurl = 'https://api.zbmath.org/v1/document/_search?search_string=ia%3A'
 arxiv_atom_baseurl = 'https://arxiv.org/a/'
 arxiv_entry_bibtex_baseurl = 'https://arxiv.org/bibtex/'
 
