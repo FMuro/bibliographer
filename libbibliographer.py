@@ -5,6 +5,10 @@ import feedparser
 import json
 import re
 
+opener = urllib.request.build_opener()
+opener.addheaders = [('User-Agent', 'MyApp/1.0')]
+urllib.request.install_opener(opener)
+
 zbmath_bibtex_baseurl = 'https://zbmath.org/bibtexoutput/?q=ia%3A'
 zbmath_entry_bibtex_baseurl = 'https://zbmath.org/bibtex/'
 zbmath_api_baseurl = 'https://api.zbmath.org/v1/document/_search?search_string=ia%3A'
