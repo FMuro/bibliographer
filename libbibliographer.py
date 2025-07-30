@@ -73,7 +73,7 @@ def arxiv_in_bibtex_zbmath(bibtex_zbmath):
     list_arxiv = []
     for line in bibtex_zbmath.splitlines():
         if line.startswith('@misc{arXiv:'):
-            list_arxiv.append(re.sub('v[0-9]+', '', line.replace("@misc{arXiv:","")))
+            list_arxiv.append(re.sub('v[0-9]+', '', line.replace("@misc{arXiv:","").replace(",","")))
     return list_arxiv
 
 # list of arXiv IDs of papers in zbmath CSL JSON
@@ -103,7 +103,8 @@ def arxiv_in_dict_arxiv(dict_arxiv):
 def bibtex(bibtex_zbmath, dict_arxiv, lower_bound_year=0):
     in_bibtex_zbmath = arxiv_in_bibtex_zbmath(bibtex_zbmath)
     in_dict_arxiv = arxiv_in_dict_arxiv(dict_arxiv)
-    for entry in list(set(in_dict_arxiv) - set(in_bibtex_zbmath)):
+    difference = [entry for entry in in_dict_arxiv if entry not in in_bibtex_zbmath]
+    for entry in difference:
         bibtex_arxiv = get_bibtex_from_arxiv(entry)
         year = re.search(r'year=\{(\d{4})\}', bibtex_arxiv).group(1)
         primaryclass = re.sub(r'\.(.*)', r'.{\1}', re.search(r'primaryClass=\{(.*?)\}', bibtex_arxiv).group(1))
