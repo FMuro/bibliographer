@@ -6,7 +6,7 @@ import json
 bibtex_zbmath = get_bibtex_from_zbmath('muro.fernando')
 json_zbmath = get_json_from_zbmath('muro.fernando')
 dict_arxiv = get_dict_from_arxiv('0000-0001-8457-9889')
-bibtex_string = bibtex(bibtex_zbmath, dict_arxiv, 2020)
+bibtex_string = bibtex(bibtex_zbmath, json_zbmath, dict_arxiv, 2020)
 csl_json = json.loads(bibtex_to_csljson(bibtex_string))
 
 data = merged_data_dict(bibtex_string, csl_json, json_zbmath, dict_arxiv)

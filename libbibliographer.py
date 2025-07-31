@@ -88,8 +88,9 @@ def arxiv_in_csl_json_zbmath(csl_json_zbmath):
 def arxiv_in_json_zbmath(json_zbmath):
     list_arxiv = []
     for entry in json_zbmath["result"]:
-        if entry["database"] == "arXiv":
-            list_arxiv.append(entry["identifier"].replace("arXiv:",""))
+        for link in entry["links"]:
+            if link["type"] == "arxiv":
+                list_arxiv.append(link["identifier"])
     return list_arxiv
 
 # list of arXiv IDs of papers in dictionary obtained from arXiv's Atom feed
@@ -100,10 +101,12 @@ def arxiv_in_dict_arxiv(dict_arxiv):
     return list_arxiv
 
 # take zbMATH bibtex and add arXiv bibtex of papers in arXiv Atom feed after lower bound year but not in zbMATH bibtex
-def bibtex(bibtex_zbmath, dict_arxiv, lower_bound_year=0):
+def bibtex(bibtex_zbmath, json_zbmath, dict_arxiv, lower_bound_year=0):
     in_bibtex_zbmath = arxiv_in_bibtex_zbmath(bibtex_zbmath)
+    in_json_zbmath = arxiv_in_json_zbmath(json_zbmath)
+    in_zbmath = in_bibtex_zbmath + in_json_zbmath
     in_dict_arxiv = arxiv_in_dict_arxiv(dict_arxiv)
-    difference = [entry for entry in in_dict_arxiv if entry not in in_bibtex_zbmath]
+    difference = [entry for entry in in_dict_arxiv if entry not in in_zbmath]
     for entry in difference:
         bibtex_arxiv = get_bibtex_from_arxiv(entry)
         year = re.search(r'year=\{(\d{4})\}', bibtex_arxiv).group(1)
