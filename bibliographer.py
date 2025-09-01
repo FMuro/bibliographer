@@ -4,6 +4,15 @@ import yaml
 import json
 
 bibtex_zbmath = get_bibtex_from_zbmath('muro.fernando')
+
+def handle_exceptions(string):
+    return string.replace(
+        "title = {Minimal ${A_}{{\\infty}}$-algebras of endomorphisms: {The} case of $d{{\\mathbb}}{Z}$-cluster tilting objects},",
+        "title = {Minimal ${A}_{\\infty}$-algebras of endomorphisms: {The} case of $d\\mathbb{Z}$-cluster tilting objects},"
+    )
+
+bibtex_zbmath = handle_exceptions(bibtex_zbmath)
+
 json_zbmath = get_json_from_zbmath('muro.fernando')
 dict_arxiv = get_dict_from_arxiv('0000-0001-8457-9889')
 bibtex_string = bibtex(bibtex_zbmath, json_zbmath, dict_arxiv, 2020)

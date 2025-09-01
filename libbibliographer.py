@@ -5,6 +5,7 @@ import feedparser
 import json
 import re
 
+
 opener = urllib.request.build_opener()
 opener.addheaders = [('User-Agent', 'MyApp/1.0')]
 urllib.request.install_opener(opener)
@@ -112,7 +113,7 @@ def bibtex(bibtex_zbmath, json_zbmath, dict_arxiv, lower_bound_year=0):
         year = re.search(r'year=\{(\d{4})\}', bibtex_arxiv).group(1)
         primaryclass = re.sub(r'\.(.*)', r'.{\1}', re.search(r'primaryClass=\{(.*?)\}', bibtex_arxiv).group(1))
         if int(year) > lower_bound_year:
-            bibtex_zbmath += "\n\n" + re.sub(r'^\}$', '      howpublished={Preprint, {arXiv}:' + entry+ ' [' + primaryclass + '] (' + year + ')}\n}', re.sub(r'@misc\{(.*?)\,', '@misc{arXiv:' + entry + ',', bibtex_arxiv), flags=re.MULTILINE)
+            bibtex_zbmath += "\n\n" + re.sub(r'^\}$', '      howpublished={Preprint, {arXiv}:' + entry + ' [' + primaryclass + '] (' + year + ')}\n}', re.sub(r'@misc\{(.*?)\,', '@misc{arXiv:' + entry + ',', bibtex_arxiv), flags=re.MULTILINE)
     return bibtex_zbmath
 
 # take bibtex from zbmath, turn it into dict, add extra data from zbmath and arxiv and also { 'bibtex' : bibtex_entry }
