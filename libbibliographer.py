@@ -114,6 +114,12 @@ def bibtex(bibtex_zbmath, json_zbmath, dict_arxiv, lower_bound_year=0):
         primaryclass = re.sub(r'\.(.*)', r'.{\1}', re.search(r'primaryClass=\{(.*?)\}', bibtex_arxiv).group(1))
         if int(year) > lower_bound_year:
             bibtex_zbmath = re.sub(r'^\}$', '      howpublished={Preprint, {arXiv}:' + entry + ' [' + primaryclass + '] (' + year + ')}\n}', re.sub(r'@misc\{(.*?)\,', '@misc{arXiv:' + entry + ',', bibtex_arxiv), flags=re.MULTILINE) + "\n\n" + bibtex_zbmath
+    # Replace title = {...} with title = {{...}}, handling cases with or without spaces around '='
+    bibtex_zbmath = re.sub(
+        r'(title\s*=\s*)\{(.*)\}',
+        lambda m: f"{m.group(1)}{{{{{m.group(2)}}}}}",
+        bibtex_zbmath
+    )
     return bibtex_zbmath
 
 # take bibtex from zbmath, turn it into dict, add extra data from zbmath and arxiv and also { 'bibtex' : bibtex_entry }
