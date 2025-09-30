@@ -141,6 +141,10 @@ def merged_data_dict(bibtex_string,csl_json,json_zbmath,dict_arxiv):
                 pass
         else: 
             try:
+                entry.update(extra_zbmath_data[entry["id"]])
+            except:
+                pass
+            try:
                 entry.update(extra_arxiv_data[entry["id"].replace("arXiv:","")])
             except:
                 pass
