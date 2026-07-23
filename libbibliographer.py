@@ -4,6 +4,7 @@ import subprocess
 import feedparser
 import json
 import re
+import warnings
 from concurrent.futures import ThreadPoolExecutor
 
 
@@ -31,10 +32,10 @@ def get_bibtex_from_zbmath(zbmath_author_ID):
                 zbmath_entry_bibtex_baseurl + str(zbmath_id)
             ).read().decode('utf-8').replace("{\\'{\\i}}", "í").strip()
         except Exception as e:
-            print(f"Warning: failed to fetch BibTeX for zbmath ID {zbmath_id}: {e}")
+            warnings.warn(f"Failed to fetch BibTeX for zbmath ID {zbmath_id}: {e}")
             return None
 
-    with ThreadPoolExecutor() as executor:
+    with ThreadPoolExecutor(max_workers=5) as executor:
         results = list(executor.map(fetch_bibtex, zbmath_ids))
 
     return "\n\n".join(r for r in results if r is not None)
