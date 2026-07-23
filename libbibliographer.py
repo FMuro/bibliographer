@@ -4,6 +4,7 @@ import subprocess
 import feedparser
 import json
 import re
+from concurrent.futures import ThreadPoolExecutor
 
 
 opener = urllib.request.build_opener()
@@ -18,9 +19,25 @@ arxiv_entry_bibtex_baseurl = 'https://arxiv.org/bibtex/'
 
 # This function retrieves the bibtex of the publications of a given zbmath author ID
 def get_bibtex_from_zbmath(zbmath_author_ID):
+    # The bibtexoutput URL now shows a popup requiring a download click, so we
+    # use the JSON API to obtain document IDs and fetch each entry's BibTeX individually.
     # the replacement {\'{\i}} -> í is done in order to avoid biblatex/biber errors
-    return urllib.request.urlopen(
-            zbmath_bibtex_baseurl+zbmath_author_ID).read().decode('utf-8').replace("{\\'{\\i}}", "í")
+    json_data = get_json_from_zbmath(zbmath_author_ID)
+    zbmath_ids = [entry["id"] for entry in json_data["result"]]
+
+    def fetch_bibtex(zbmath_id):
+        try:
+            return urllib.request.urlopen(
+                zbmath_entry_bibtex_baseurl + str(zbmath_id)
+            ).read().decode('utf-8').replace("{\\'{\\i}}", "í").strip()
+        except Exception as e:
+            print(f"Warning: failed to fetch BibTeX for zbmath ID {zbmath_id}: {e}")
+            return None
+
+    with ThreadPoolExecutor() as executor:
+        results = list(executor.map(fetch_bibtex, zbmath_ids))
+
+    return "\n\n".join(r for r in results if r is not None)
 
 def get_bibtex_from_arxiv(arxiv_ID):
     # the replacement {\'{\i}} -> í is done in order to avoid biblatex/biber errors
