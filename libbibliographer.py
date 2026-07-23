@@ -4,7 +4,6 @@ import subprocess
 import feedparser
 import json
 import re
-import warnings
 from concurrent.futures import ThreadPoolExecutor
 
 
@@ -27,18 +26,14 @@ def get_bibtex_from_zbmath(zbmath_author_ID):
     zbmath_ids = [entry["id"] for entry in json_data["result"]]
 
     def fetch_bibtex(zbmath_id):
-        try:
-            return urllib.request.urlopen(
-                zbmath_entry_bibtex_baseurl + str(zbmath_id)
-            ).read().decode('utf-8').replace("{\\'{\\i}}", "í").strip()
-        except Exception as e:
-            warnings.warn(f"Failed to fetch BibTeX for zbmath ID {zbmath_id}: {e}")
-            return None
+        return urllib.request.urlopen(
+            zbmath_entry_bibtex_baseurl + str(zbmath_id)
+        ).read().decode('utf-8').replace("{\\'{\\i}}", "í").strip()
 
     with ThreadPoolExecutor(max_workers=5) as executor:
         results = list(executor.map(fetch_bibtex, zbmath_ids))
 
-    return "\n\n".join(r for r in results if r is not None)
+    return "\n\n".join(results)
 
 def get_bibtex_from_arxiv(arxiv_ID):
     # the replacement {\'{\i}} -> í is done in order to avoid biblatex/biber errors
