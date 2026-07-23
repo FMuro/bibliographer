@@ -23,15 +23,17 @@ def get_bibtex_from_zbmath(zbmath_author_ID):
     # use the JSON API to obtain document IDs and fetch each entry's BibTeX individually.
     # the replacement {\'{\i}} -> í is done in order to avoid biblatex/biber errors
     json_data = get_json_from_zbmath(zbmath_author_ID)
-    zbmath_ids = [entry["id"] for entry in json_data["result"]]
+    # entry["zbmath_url"] is e.g. "https://zbmath.org/1234.56789"; the bibtex
+    # endpoint uses the same Zbl number, not the internal numeric id.
+    zbl_numbers = [entry["zbmath_url"].split("zbmath.org/")[1] for entry in json_data["result"]]
 
-    def fetch_bibtex(zbmath_id):
+    def fetch_bibtex(zbl_number):
         return urllib.request.urlopen(
-            zbmath_entry_bibtex_baseurl + str(zbmath_id)
+            zbmath_entry_bibtex_baseurl + zbl_number
         ).read().decode('utf-8').replace("{\\'{\\i}}", "í").strip()
 
     with ThreadPoolExecutor(max_workers=5) as executor:
-        results = list(executor.map(fetch_bibtex, zbmath_ids))
+        results = list(executor.map(fetch_bibtex, zbl_numbers))
 
     return "\n\n".join(results)
 
