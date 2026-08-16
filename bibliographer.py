@@ -105,7 +105,7 @@ def complete_zbmath(zbmath_data: Dict[str, Any], openalex_data: Dict[str, Any], 
                     parts.append(str(pages))
                 year = series.get("year")
                 if year:
-                    parts.append(f"({year})")
+                    parts.append(f"({year}).")
                 if parts:
                     source["source"] = ", ".join(parts)
 
