@@ -24,6 +24,8 @@ def complete_zbmath(zbmath_data: Dict[str, Any], openalex_data: Dict[str, Any], 
         if arxiv_ID:
             item["arxiv"] = arxiv_ID
 
+        item["year"] = int(item["year"])
+
         contributors = item.get("contributors", {})
         authors_list = []
         for author_item in contributors.get("authors", []):
