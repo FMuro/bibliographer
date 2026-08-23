@@ -116,8 +116,8 @@ def complete_zbmath(zbmath_data: Dict[str, Any], openalex_data: Dict[str, Any], 
                         source["source"] = " ".join(parts)
                     else:
                         source["source"] = (
-                            f"{parts[0]} {', '.join(parts[1:-2])} "
-                            f"{parts[-2]} {parts[-1]}"
+                            f"{parts[0]} {', '.join(parts[1:-1])} "
+                            f"{parts[-1]}"
                         )
 
     return zbmath_data
