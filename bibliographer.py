@@ -110,7 +110,15 @@ def complete_zbmath(zbmath_data: Dict[str, Any], openalex_data: Dict[str, Any], 
                 if year:
                     parts.append(f"({year}).")
                 if parts:
-                    source["source"] = ", ".join(parts)
+                    if len(parts) == 1:
+                        source["source"] = parts[0]
+                    elif len(parts) == 2:
+                        source["source"] = " ".join(parts)
+                    else:
+                        source["source"] = (
+                            f"{parts[0]} {', '.join(parts[1:-2])} "
+                            f"{parts[-2]} {parts[-1]}"
+                        )
 
     return zbmath_data
 
