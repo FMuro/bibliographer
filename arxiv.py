@@ -41,6 +41,10 @@ def extract_arxiv_summary(json_arxiv, arxiv_ID):
         if arxiv_ID in entry['id']:
             return entry['summary']
 
+def extract_published_date(json_arxiv, arxiv_ID):
+    for entry in json_arxiv['entries']:
+        if arxiv_ID in entry['id']:
+            return entry['published']
 
 def normalize_arxiv_id(arxiv_id: str) -> str:
     normalized = arxiv_id.strip()
