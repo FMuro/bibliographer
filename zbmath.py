@@ -96,15 +96,21 @@ def get_author_from_id(author_ID):
         },
     )
     response = _read_json_response(request)
-    spellings = response.get("result", {}).get("spellings", [])
-    if not spellings:
+    result = response.get("result", {})
+    spellings = result.get("spellings", [])
+    if spellings:
+        first_spelling = spellings[0]
+        return {
+            "given": first_spelling.get("first_name"),
+            "family": first_spelling.get("last_name"),
+        }
+
+    name = result.get("name", "")
+    family, separator, given = name.partition(",")
+    if not separator or not family.strip() or not given.strip():
         return {}
 
-    first_spelling = spellings[0]
-    return {
-        "given": first_spelling.get("first_name"),
-        "family": first_spelling.get("last_name"),
-    }
+    return {"given": given.strip(), "family": family.strip()}
 
 
 def get_author_lookup_from_zbmath(json_zbmath):
