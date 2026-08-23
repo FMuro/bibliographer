@@ -26,7 +26,7 @@ def complete_zbmath(zbmath_data: Dict[str, Any], openalex_data: Dict[str, Any], 
 
         item["year"] = int(item["year"])
 
-        if arxiv_ID and datestamp[0] == "0":
+        if arxiv_ID and item["datestamp"][0] == "0":
             item["datestamp"] = extract_published_date(arxiv_data, arxiv_ID)
 
         contributors = item.get("contributors", {})
