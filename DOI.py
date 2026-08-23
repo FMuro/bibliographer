@@ -32,7 +32,9 @@ def normalize_doi(doi: str) -> str:
 
 
 def normalize_title(title: str) -> str:
-    return " ".join(strip_latex(title).split()).strip()
+    normalized = strip_latex(title)
+    normalized = re.sub(r"[\u2010-\u2015\u2212]", "-", normalized)
+    return " ".join(normalized.split()).strip()
 
 
 def build_openalex_lookup(openalex_results: List[Dict[str, Any]]) -> Tuple[Dict[str, List[str]], Dict[str, List[str]]]:
