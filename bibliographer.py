@@ -1,5 +1,6 @@
 #!.venv/bin/python3
 import yaml
+import re
 from typing import Any, Dict, Optional
 
 from zbmath import get_JSON_from_zbmath, get_author_lookup_from_zbmath
@@ -12,6 +13,121 @@ from arxiv import *
 ORCID = "0000-0001-8457-9889"
 zbMATH = "muro.fernando"
 OUTPUT_YAML = "output.yaml"
+
+def _canonical_arxiv_id(arxiv_id: str) -> str:
+    """Normaliza un identificador arXiv y elimina el número de versión."""
+    normalized = normalize_arxiv_id(arxiv_id)
+    return re.sub(r"v\d+$", "", normalized, flags=re.IGNORECASE)
+
+
+def _append_missing_arxiv_items(
+    zbmath_data: Dict[str, Any],
+    arxiv_data: Dict[str, Any],
+) -> None:
+    existing_ids = {
+        _canonical_arxiv_id(item.get("arxiv", ""))
+        for item in zbmath_data.get("result", [])
+        if item.get("arxiv")
+    }
+
+    for entry in arxiv_data.get("entries", []):
+        published_parsed = entry.get("published_parsed", [])
+        if not published_parsed or published_parsed[0] <= 2020:
+            continue
+
+        arxiv_id = _canonical_arxiv_id(entry.get("id", ""))
+        if not arxiv_id or arxiv_id in existing_ids:
+            continue
+
+        category = entry.get("arxiv_primary_category", {}).get("term")
+        year = published_parsed[0]
+        doi = entry.get("arxiv_doi")
+
+        item = {
+            "database": "arXiv",
+            "id": None,
+            "identifier": f"arXiv:{arxiv_id}",
+            "arxiv": arxiv_id,
+            "year": year,
+            "datestamp": entry.get("published", ""),
+            "document_type": {
+                "code": "a",
+                "description": "preprint",
+            },
+            "title": {
+                "title": entry.get("title", ""),
+                "original": None,
+                "subtitle": None,
+                "addition": None,
+            },
+            "contributors": {
+                "authors": [
+                    {"name": author.get("name", ""), "codes": []}
+                    for author in entry.get("authors", [])
+                ],
+                "author_references": [],
+                "editors": [],
+            },
+            "authors": [
+                {"name": author.get("name", "")}
+                for author in entry.get("authors", [])
+            ],
+            "links": [
+                {
+                    "identifier": arxiv_id,
+                    "type": "arxiv",
+                    "url": f"https://arxiv.org/abs/{arxiv_id}",
+                }
+            ],
+            "msc": [],
+            "keywords": [],
+            "references": [],
+            "license": [],
+            "states": [["o", "has open version"]],
+            "source": {
+                "book": [],
+                "pages": None,
+                "series": [],
+                "source": f"Preprint, arXiv:{arxiv_id}"
+                + (f" [{category}]" if category else "")
+                + f" ({year})",
+            },
+            "editorial_contributions": [
+                {
+                    "language": None,
+                    "reviewer": {
+                        "author_code": None,
+                        "reviewer_id": None,
+                        "name": None,
+                        "sign": None,
+                    },
+                    "text": entry.get("summary", ""),
+                    "contribution_type": "summary",
+                }
+            ],
+            "zbmath_url": None,
+        }
+
+        if doi:
+            item["doi"] = doi
+            item["links"].append(
+                {
+                    "identifier": doi,
+                    "type": "doi",
+                    "url": f"https://doi.org/{doi}",
+                }
+            )
+
+        item["abstract"] = entry.get("summary", "")
+
+        try:
+            item["bibtex"] = get_paper_bibtex_from_arxiv(arxiv_id)
+        except Exception:
+            pass
+
+        zbmath_data.setdefault("result", []).append(item)
+        existing_ids.add(arxiv_id)
+
 
 def complete_zbmath(zbmath_data: Dict[str, Any], openalex_data: Dict[str, Any], arxiv_data: Dict[str, Any]) -> Dict[str, Any]:
     openalex_results = openalex_data.get("results", [])
@@ -125,7 +241,7 @@ def complete_zbmath(zbmath_data: Dict[str, Any], openalex_data: Dict[str, Any], 
                             f"{parts[0]} {', '.join(parts[1:-1])} "
                             f"{parts[-1]}"
                         )
-
+    _append_missing_arxiv_items(zbmath_data, arxiv_data)
     return zbmath_data
 
 
