@@ -49,3 +49,21 @@ def get_JSON_from_openalex(orcid):
 def get_YAML_from_openalex(orcid):
     data = get_JSON_from_openalex(orcid)
     return yaml.dump(data, sort_keys=False, allow_unicode=True, default_flow_style=False)
+
+from typing import Any
+
+
+def get_source_display_name_from_openalex(openalex_json: dict[str, Any], doi: str) -> str | None:
+    """Devuelve el nombre de la fuente asociada a un DOI en OpenAlex."""
+    if not doi:
+        raise ValueError("DOI is required")
+
+    doi_url = doi if doi.startswith("https://doi.org/") else f"https://doi.org/{doi}"
+
+    for item in openalex_json.get("results", []):
+        if item.get("ids", {}).get("doi") == doi_url:
+            return item.get("primary_location", {}).get("source", {}).get(
+                "display_name"
+            )
+
+    return None

@@ -53,6 +53,12 @@ def complete_zbmath(zbmath_data: Dict[str, Any], openalex_data: Dict[str, Any], 
             except Exception:
                 pass
 
+        if doi and item["document_type"]["code"] not in ("a", "j"):
+            try:
+                item["source"]["source"] += ", to appear in " + get_source_display_name_from_openalex(openalex_data, doi)
+            except Exception:
+                pass
+
         if arxiv_ID:
             try:
                 item["abstract"] = extract_arxiv_summary(arxiv_data, arxiv_ID)
