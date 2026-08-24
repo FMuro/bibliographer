@@ -4,7 +4,7 @@ import re
 from typing import Any, Dict, Optional
 
 from zbmath import get_JSON_from_zbmath, get_author_lookup_from_zbmath
-from openalex import get_JSON_from_openalex
+from openalex import get_JSON_from_openalex, get_source_display_name_from_openalex
 
 from DOI import *
 from crossref import *
