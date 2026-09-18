@@ -62,8 +62,7 @@ def get_source_display_name_from_openalex(openalex_json: dict[str, Any], doi: st
 
     for item in openalex_json.get("results", []):
         if item.get("ids", {}).get("doi") == doi_url:
-            return item.get("primary_location", {}).get("source", {}).get(
-                "display_name"
-            )
+            if item.get("primary_location", {}).get("source", {}).get("display_name") != "repository"
+                return item.get("primary_location", {}).get("source", {}).get("display_name")
 
     return None
